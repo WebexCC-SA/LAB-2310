@@ -18,4 +18,5 @@ From your workstation open an RDP (Remote Desktop) session to the following host
 
 ## Getting Started
 
-This lab leverages Cisco dCloud ...
+This lab leverages Cisco WxCC ORG
+We HAve 30 DN and that needs to be commited 
