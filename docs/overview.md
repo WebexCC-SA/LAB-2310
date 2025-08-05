@@ -20,3 +20,4 @@ From your workstation open an RDP (Remote Desktop) session to the following host
 
 This lab leverages Cisco WxCC ORG
 We HAve 30 DN and that needs to be commited 
+This is the secong Commit 
