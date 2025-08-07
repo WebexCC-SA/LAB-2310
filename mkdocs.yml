@@ -88,7 +88,9 @@ nav:
   - Home: index.md
   - Lab:
       - Overview: overview.md
-      - Lab 1 - Getting Started: Excercise1.md
+      - Lab 1 - Configure and Debugg Inbound Call Flows : Excercise1.md
+      - Lab 2 - Setup Seamless Call Transfer : Excercise2.md
+      - Lab 3 - Set Up Outdial Calls : Excercise3.md
       - Conclusion: conclusion.md
   - Topologies: topologies.md
   - How to use this guide:
