@@ -151,7 +151,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - In the Flow Canvas you can now also check how the calls have travered through valrious nodes by cliking on the Analyze capability and selecting the current day.
 
 
-## section 3: Analyze Agent Performance with Call Reports
+## Section 3: Analyze Agent Performance with Call Reports
 
 - The goal of this lab section is to review reports to determine what happened with few calls. To create a dataset of calls, lets simulate some common agent-side issues.
 
@@ -189,4 +189,5 @@ After creating the inbound flow and presenting calls to a test agent, participan
 -  The same process can be used to explore the "Queue Activity By Queue" report.
 
 Congratulations ! on completing this section of the lab! 
+
 You've successfully navigated the complexities of call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.
