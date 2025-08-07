@@ -67,7 +67,8 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Choose the <User1-Agent-Profile> and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
 
-!!! Note Depending on the customer's business needs, the desired option can be selected. For example, if a customer wants all of their agents to use WebRTC and no other endpoints, only the 'Desktop' option can be checked. Agents will then only see the desktop option when logging into the desktop. 
+!!! Note 
+       Depending on the customer's business needs, the desired option can be selected. For example, if a customer wants all of their agents to use WebRTC and no other endpoints, only the 'Desktop' option can be checked. Agents will then only see the desktop option when logging into the desktop. 
 
 - To confirm that the agent is mapped to this profile, go to the "Contact Center users" section in "User management."
 
@@ -142,7 +143,8 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Toggle "Validation" to "On" to ensure there are no validation errors, and then publish the flow.
 
-!!! Note When publishing, it is important to ensure the label you have set is the same one that was set when the entry point was being mapped to the routing flow.
+!!! Note 
+      When publishing, it is important to ensure the label you have set is the same one that was set when the entry point was being mapped to the routing flow.
 
 - Place another call from your cell phone to the dialed number +***** and select option 0 to succesfully reach the logged-in agent.
 
