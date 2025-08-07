@@ -1,0 +1,160 @@
+# Lab 3 -  Set Up Outdial Calls in WxCC
+
+Please use the following credentials to connect to Control Hub and configure Webex Contact Center:
+
+| <!-- -->         | <!-- -->         |
+| ---------------- | ---------------- |
+| `Control Hub URL`            | <a href="https://admin.webex.com" target="_blank">https://admin.webex.com</a> |
+| `Username`       | wxccemealabs+admin**ID**@gmail.com  _(where **ID** is your assigned pod number; this ID will be provided by your proctor)_ |
+| `Password`       | ciscoliveAMER25! |
+
+## Objective 
+
+In this lab exercise, the audience will gain hands-on experience configuring WxCC solutions to enable outdial capabilities from scratch. Furthermore, the exercise will also equip participants with essential debugging skills to identify and rectify frequent implementation errors ensuring a robust and functional deployment.
+
+## Section 1 : Setup Outdial 
+
+- Log in to https://admin.webex.com with the provided credentials.
+
+- In Control Hub, navigate to Services and click on Contact Center.
+
+- In the Contact Center navigation pane, under Customer Experience, select Queues.
+
+- Create a new queue by clicking on the "Create a Queue" option.
+
+- The Queue Creation Wizard will appear. Provide the following details:
+
+      - General
+            - Name: [Provide a descriptive name for your queue]
+            - Contact Direction: Outdial Queue
+            - Channel Type: Telephony
+
+      - Contact Routing Settings
+            - Agent Assignment: Teams
+            - Routing Pattern: Longest available
+            - Call Distribution: Create a group (Decide on a Team Name)
+
+      - Advanced Settings
+            - Service Level Threshold: 30 seconds
+            - Maximum Time in Queue: 30 seconds
+            - Default Music in Queue: defaultmusic_on_hold.wav
+
+- Once these settings are added, click Create to finalize the queue.
+
+- Lets create a Entry point to map the queue to this entry point. 
+
+- Navigate back to Customer Experience in Contact Center and click on Channels.
+
+- Create a new channel by clicking on the "Create a channel" option.
+
+- The Channel Creation Wizard will appear. Provide the following details:
+
+      - Name: [Provide a descriptive name for your channel]
+      - Channel Type: Outbound Telephony
+      - Service Level Threshold: 30 seconds
+      - Timezone: America/New York
+
+- After these settings are added, click Create to finalize the channel.
+
+- Since outdial is an agent activity, the Agent Desktop should have the capability to call any number outside the WxCC ecosystem. To enable this capability, create an agent profile and map it to the agent.
+
+- Navigate to Desktop Experience in Contact Center and click on Desktop Profiles.
+
+- In Desktop Profiles, create a new profile by clicking on "Create Desktop Profile".
+
+- In the General section, provide the desired name for your profile.
+
+- Move to "Dial Plans" by clicking Next.
+
+- Enable "Outdial".
+      - Select the preconfigured "?????" as an "Outdial Entry Point".
+      - Select the preconfigured "CiscoLive_AddressBook" as an "Address Book".
+
+- Move to "Voice Channel Options" by clicking Next.
+
+- Ensure that "Desktop" is enabled under "Voice Channels options".
+
+- Proceed to the end of desktop profile creation by clicking Next and finally Create.
+
+- Now, Navigate to the "Contact Center Users" section.
+
+- Assign your newly created desktop profile under "Desktop Profile" and Save changes.
+
+## Section 2 : Test Outdial 
+
+- Now, log in to the Agent Desktop using the provided credentials.
+      - URL: https://desktop.wxcc-us1.cisco.com/
+      - Username: Contact the lab proctor if information is unavailable.
+      - Password: Contact the lab proctor if information is unavailable.
+
+- Please select desktop as telephony option and  and set the Team as ************* and login 
+
+- Present task is to dial your cell phone number. 
+
+- First, click the Outdial Call option. 
+
+- You'll notice that the dial pad is missing; the only available option is to search by name, email, or number within the tenant. 
+
+- This prevents us from dialing an individual cell phone number directly. 
+
+- To fix this, we need to find where the dial pad setting is controlled. Since this is an agent desktop function, we'll check the agent's desktop profile and the dial plan where we enabled the outdial option.
+
+- In Control Hub, go back to the Desktop Profile section. Select the profile that's mapped to the agent you are working with.
+
+- Navigate to the Dial Plans tab. Enable the dial plan functionality and select US as the dial plan. Then, click Save.
+
+- Refresh the Agent Desktop application. Click the Outdial option again.
+
+- You should now see the number pad pop up, allowing you to punch in numbers.
+
+- Enter your cell phone number. You may add a "1" before the number, or it will work without it 
+
+- Click the Dial button.
+
+- From the Agent Desktop, dial the cell phone number using the dial pad. You should ideally see an agent-initiated call to the cell phone number, but nothing happens.
+
+## Section 3 : Troubleshoot Outdial Failure
+
+- Let's troubleshoot to see why this is the case. To figure this out, bring up the browser developer tool (Shortcut: Press F12 Key).
+
+- Once the developer tool is up, ensure that it's on the "Console" tab.
+
+- Clear the console logs by selecting the "Clear Console" button and using the dial pad, dial the cell phone number again.
+
+- As soon as the call fails, you should see a red error message in the console logs.
+
+- Now, let's look closer into the error message and figure out what the issue might be.
+
+- Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "Config" – "Config_fetch_error." The exact config it's talking about is "queuemgr," which basically means queue.
+
+- This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
+
+- In WxCC, a queue is always mapped to an entry point via routing flows, so let's go back to the Entry Point for outdial and check the configuration again.
+
+- Via Control Hub, under "Customer Experience," go back via "Channel" to the Outdial Entry Point that was configured.
+
+- Under "Entry Point Settings," you will notice that there is no routing flow mapped.
+
+- From the dropdown, select the flow "******************" and fill in these fields:
+      - Music on hold: "defaultmusic_on_hold"
+      - Version label: Latest
+      - Outdial Queue: Select the queue that was created in step 1 of your initial setup.
+
+- Save the settings.
+
+- From Agent Desktop, perform the outdial to the cell phone number, and now the call should be successful.
+
+- If you observe the browser debug console logs, you should see a message that will clearly show case its fetching the config and have the team details via the queue ID.
+
+!!! Note
+  In this lab, the outdial ANI noticed on the cell phone is the configuration that is set on the tenant level under "Tenant settings" and the "Voice" tab.
+
+****If you wish to override this defauly ANI with your ANI you can 
+
+Congratulations on completing this exercise! 
+
+You've not only set up the outdial feature from scratch but also learned how to identify and fix common errors, ensuring your deployments are both functional and reliable.
+
+
+
+
