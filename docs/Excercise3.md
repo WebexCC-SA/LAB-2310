@@ -106,7 +106,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Assign your newly created desktop profile under "Desktop Profile" and Save changes.
 
-      ![Nav](./assets/2310_Excercise3_1_14.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_14.png){ width="800" }
 
 ## Section 2 : Test Outdial 
 
@@ -123,11 +123,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - First, click the Outdial Call option on the top right corner of the desktop. 
 
-      ![Nav](./assets/2310_Excercise3_1_16.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_16.png){ width="400" }
 
 - You'll notice that the dial pad is missing; the only available option is to search by name, email, or number within the tenant. 
 
-      ![Nav](./assets/2310_Excercise3_1_17.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_17.png){ width="400" }
 
 - This prevents us from dialing an individual cell phone number directly. 
 
@@ -139,7 +139,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Navigate to the Dial Plans tab. Enable the dial plan functionality and select US as the dial plan. Then, click Save.
 
-      ![Nav](./assets/2310_Excercise3_1_18.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_18.png){ width="800" }
 
 - Refresh the Agent Desktop application. Click the Outdial option again.
 
