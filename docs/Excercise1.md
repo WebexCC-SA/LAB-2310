@@ -145,26 +145,26 @@ After creating the inbound flow and presenting calls to a test agent, participan
       - Agent Assignment: Teams
       - Routing Pattern: Longest available
 
-      ![Nav](./assets/2310_Excercise1_2_13.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_13.png){ width="800" }
 
 - For, Call Distribution: Create the group and in group 1, click on the action and ensure the team **team** is added.
 
       ![Nav](./assets/2310_Excercise1_2_14.png){ width="700" }
-      ![Nav](./assets/2310_Excercise1_2_15.png){ width="200" }
+      ![Nav](./assets/2310_Excercise1_2_15.png){ width="700" }
 
 - In Advanced Settings, ensure that these values are accurate:
       - Service Level Threshold: 30 seconds
       - Maximum Time in Queue: 30 seconds
       - Default Music in Queue: defaultmusic_on_hold.wav
 
-      ![Nav](./assets/2310_Excercise1_2_16.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_16.png){ width="700" }
 
 - Click Save to finalize the queue.
 
 - It's time to now test the call. To do this, log in to the Agent Desktop using the provided credentials.
       - URL: https://desktop.wxcc-us1.cisco.com/
-      - Username: Contact the lab proctor if information is unavailable.
-      - Password: Contact the lab proctor if information is unavailable.
+      - Username: **Contact the lab proctor if information is unavailable.**
+      - Password: **Contact the lab proctor if information is unavailable.**
 
 - Please select Desktop as the telephony option, set the Team as *************, and log in.
 
