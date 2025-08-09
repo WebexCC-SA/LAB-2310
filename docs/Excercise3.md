@@ -123,11 +123,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - First, click the Outdial Call option on the top right corner of the desktop. 
 
-      ![Nav](./assets/2310_Excercise3_1_16.png){ width="400" }
+      ![Nav](./assets/2310_Excercise3_1_16.png){ width="300" }
 
 - You'll notice that the dial pad is missing; the only available option is to search by name, email, or number within the tenant. 
 
-      ![Nav](./assets/2310_Excercise3_1_17.png){ width="400" }
+      ![Nav](./assets/2310_Excercise3_1_17.png){ width="500" }
 
 - This prevents us from dialing an individual cell phone number directly. 
 
