@@ -81,7 +81,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
       - "Auto Wrap-up interval" is set to 600 seconds.
       - "Telephony RONA timeout" is set to 12 seconds.
 
-      ![Nav](./assets/2310_Excercise1_2_3.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_3.png){ width="700" }
 
 - Navigate to "Desktop Experience" and select "Desktop Profiles."
 
@@ -89,7 +89,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Choose the ??????? and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
 
-      ![Nav](./assets/2310_Excercise1_2_5.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_5.png){ width="700" }
 
 !!! Note 
        Depending on the customer's business needs, the desired option can be selected. For example, if a customer wants all of their agents to use WebRTC and no other endpoints, only the 'Desktop' option can be checked. Agents will then only see the desktop option when logging into the desktop. 
@@ -108,6 +108,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click "Create a channel."
 
+
 - In the "Channel Creation Wizard," provide the following details:
       - Name: [Provide a descriptive name for your channel]
       - Channel Type: Inbound Telephony
@@ -121,7 +122,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
       - Music on hold: "defaultmusic_on_hold"
       - Version label: Latest
 
-      ![Nav](./assets/2310_Excercise1_2_10.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_10.png){ width="700" }
 
 - In the "Phone numbers" section, select the following:
       - Number Webex Calling location:
