@@ -1,4 +1,4 @@
-# Lab 1 - Configure and Debugg Tenant Call Flows
+# Lab 1 - Configure and Debug Tenant Call Flows
 
 Please use the following credentials to connect to Control Hub and configure Webex Contact Center:
 
