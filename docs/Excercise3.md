@@ -55,11 +55,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Navigate back to Customer Experience in Contact Center and click on Channels.
 
-      ![Nav](./assets/2310_Excercise3_1_6.png){ width="300" }
+      ![Nav](./assets/2310_Excercise3_1_6.png){ width="250" }
 
 - Create a new channel by clicking on the "Create a channel" option.
 
-      ![Nav](./assets/2310_Excercise3_1_7.png){ width="100" }
+      ![Nav](./assets/2310_Excercise3_1_7.png){ width="150" }
 
 - The Channel Creation Wizard will appear. Provide the following details:
 
@@ -68,33 +68,45 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - **Service Level Threshold**: 30 seconds
       - **Timezone**: America/New York
 
-      ![Nav](./assets/2310_Excercise3_1_8.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_8.png){ width="750" }
 
 - After these settings are added, click Create to finalize the channel.
 
-- Since outdial is an agent activity, the Agent Desktop should have the capability to call any number outside the WxCC ecosystem. To enable this capability, create an agent profile and map it to the agent.
+- Since outdial is an agent activity, the Agent Desktop should have the capability to call any number outside the WxCC ecosystem. 
+
+- To enable this capability, create an agent profile and map it to the agent.
 
 - Navigate to Desktop Experience in Contact Center and click on Desktop Profiles.
 
+      ![Nav](./assets/2310_Excercise3_1_9.png){ width="200" }
+
 - In Desktop Profiles, create a new profile by clicking on "Create Desktop Profile".
+
+      ![Nav](./assets/2310_Excercise3_1_10.png){ width="200" }
 
 - In the General section, provide the desired name for your profile.
 
+      ![Nav](./assets/2310_Excercise3_1_11.png){ width="500" }
+
 - Move to "Dial Plans" by clicking Next.
 
-- Enable "Outdial".
-      - Select the preconfigured "?????" as an "Outdial Entry Point".
-      - Select the preconfigured "CiscoLive_AddressBook" as an "Address Book".
+- Enable "**Outdial**".
+      - Select the preconfigured "**?????**" as an "**Outdial Entry Point**".
+      - Select the preconfigured "**??????**" as an "**Address Book**".
 
-- Move to "Voice Channel Options" by clicking Next.
+      ![Nav](./assets/2310_Excercise3_1_12.png){ width="500" }
 
-- Ensure that "Desktop" is enabled under "Voice Channels options".
+- Move to "Voice Channel Options" by clicking Next and ensure that "Desktop" is enabled under "Voice Channels options".
+
+      ![Nav](./assets/2310_Excercise3_1_13.png){ width="500" }
 
 - Proceed to the end of desktop profile creation by clicking Next and finally Create.
 
 - Now, Navigate to the "Contact Center Users" section.
 
 - Assign your newly created desktop profile under "Desktop Profile" and Save changes.
+
+      ![Nav](./assets/2310_Excercise3_1_14.png){ width="500" }
 
 ## Section 2 : Test Outdial 
 
