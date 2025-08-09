@@ -106,8 +106,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_8.png){ width="200" }
 
-- Click "Create a channel."
-
+- Click "Create a channel." <br>
 
 - In the "Channel Creation Wizard," provide the following details:
       - Name: **Provide a descriptive name for your channel**
@@ -131,11 +130,11 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_11.png){ width="700" }
 
-- After adding these settings, click "Create" to finalize the channel.
+- After adding these settings, click "Create" to finalize the channel. <br>
 
-- The way an incoming call is presented to an agent in agent-based routing is via the entry point to the routing flow and the flow mapped to the queue which has the team the agent belongs to.
+- The way an incoming call is presented to an agent in agent-based routing is via the entry point to the routing flow and the flow mapped to the queue which has the team the agent belongs to. <br>
 
-- With this logic, let's check the queue and make the necessary configuration.
+- With this logic, let's check the queue and make the necessary configuration. <br>
 
 - In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue **??????**. 
 
@@ -160,9 +159,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_16.png){ width="800" }
 
-- Click Save to finalize the queue.
+- Click Save to finalize the queue. <br>
 
-- It's time to now test the call. To do this, log in to the Agent Desktop using the provided credentials.
+- It's time to now test the call. To do this, log in to the Agent Desktop using the provided credentials.<br>
       - URL: https://desktop.wxcc-us1.cisco.com/
       - Username: **Contact the lab proctor if information is unavailable.**
       - Password: **Contact the lab proctor if information is unavailable.** <br>
