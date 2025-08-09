@@ -215,40 +215,66 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 ## Section 3: Analyze Agent Performance with Call Reports
 
-- The goal of this lab section is to review reports to determine what happened with few calls. To create a dataset of calls, lets simulate some common agent-side issues.
+- The goal of this lab section is to review reports to determine what happened with few calls. 
 
-- First, ensure that the agent is ready and make a call from your cell phone. When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state.
+- To create a dataset of calls, lets simulate some common agent-side issues.
+
+- First, ensure that the agent is ready and make a call from your cell phone. 
+
+- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state.
+
+      ![Nav](./assets/2310_Excercise1_3_1.png){ width="500" }
 
 - Next, make another call. This time, when the call is presented to the agent, reject the call.
 
-- Now that you have a variety of calls in the system, you can explore the reports to see how to track "Contact Offer" and "Assignment Failures" to the agent.
+      ![Nav](./assets/2310_Excercise1_3_2.png){ width="500" }
+
+- Now that you have a variety of calls in the system, you can explore the reports to see how to track "**Contact Offer**" and "**Assignment Failures**" to the agent.
 
 - In Control Hub under "Contact Center" select "Overview." In the "Quick Links" section on the right, select "Analyzer."
 
-- Click on "Visualization" and select the folder with your user details, <USer*_Webexone>.
+      ![Nav](./assets/2310_Excercise1_3_3.png){ width="500" }
+
+- Click on "Visualization" and select the folder with your user details, **???????**.
+
+      ![Nav](./assets/2310_Excercise1_3_4.png){ width="500" }
 
 - There are two reports in the folder which are copy of the stock report: 
       - "Agent Trace Report" and 
       - "Queue Activity By Queue Report.
+
+      ![Nav](./assets/2310_Excercise1_3_5.png){ width="500" }
       
 - Each report includes three columns:
-      - RONA Count: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
-      - Call Reject Count: This tracks all calls that failed because the agent explicitly declined the call (reasonCode: USER_DECLINED). 
-      - Other Error Counts: This reflects call offer and assignment failures to the agent caused by any other error.
+      - **RONA Count**: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
+      - **Call Reject Count**: This tracks all calls that failed because the agent explicitly declined the call (reasonCode: USER_DECLINED). 
+      - **Other Error Counts**: This reflects call offer and assignment failures to the agent caused by any other error.
 
-- To review the "Agent Trace" report, first click on the "Edit" option and ensure that the start time is set for "Today."
+- To review the "Agent Trace" report, first click on the "Edit" option 
 
-- In the profile variables, you can also confirm that the three variables i.e. RONA Count, Call Reject Count, and Other Error Counts—are present.
+      ![Nav](./assets/2310_Excercise1_3_6.png){ width="300" }
+
+- Ensure that the start time of the report is set for "Today."
+
+      ![Nav](./assets/2310_Excercise1_3_7.png){ width="300" }
+
+- In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
+
+      ![Nav](./assets/2310_Excercise1_3_8.png){ width="500" }
 
 - Save the visualizationand Click the "Preview" option.
 
 - You should now see counts for "RONA" and "Call Reject." Click on the value and the magnification symbol for a further drill-down of the number.
 
+      ![Nav](./assets/2310_Excercise1_3_9.png){ width="500" }
+
 - A new window will pop up with all the details of this call. As needed, you can add fields and measures from the available options to get all the desired information related to the call and the agent.
+
+      ![Nav](./assets/2310_Excercise1_3_10.png){ width="500" }
 
 - To test this, you can click on "Agent ID" and it will be appended to the end of the report as a new column.
 
--  The same process can be used to explore the "Queue Activity By Queue" report.
+-  The same process can be used to explore the "**Queue Activity By Queue**" report.
 
 Congratulations ! on completing this section of the lab! 
 
