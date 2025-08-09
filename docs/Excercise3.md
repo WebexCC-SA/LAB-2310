@@ -153,23 +153,33 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 ## Section 3 : Troubleshoot Outdial Failure
 
-- Let's troubleshoot to see why this is the case. To figure this out, bring up the browser developer tool (Shortcut: Press F12 Key).
+- Let's troubleshoot to see why this is the case. 
 
-- Once the developer tool is up, ensure that it's on the "Console" tab.
+- To figure this out, bring up the browser developer tool (Shortcut: Press F12 Key).
 
-- Clear the console logs by selecting the "Clear Console" button and using the dial pad, dial the cell phone number again.
+- Once the developer tool is up, ensure that it's on the "Console" tab and clear the console logs by selecting the "Clear Console" button 
+
+      ![Nav](./assets/2310_Excercise3_1_19.png){ width="200" }
+
+- Using the dial pad, dial the cell phone number again.
 
 - As soon as the call fails, you should see a red error message in the console logs.
 
+      ![Nav](./assets/2310_Excercise3_1_20.png){ width="500" }
+
 - Now, let's look closer into the error message and figure out what the issue might be.
 
-- Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "Config" – "Config_fetch_error." The exact config it's talking about is "queuemgr," which basically means queue.
+- Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "**Config**" – "**Config_fetch_error**." The exact config it's talking about is "**queuemgr**" which basically means queue.
+
+      ![Nav](./assets/2310_Excercise3_1_21.png){ width="500" }
 
 - This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
 
 - In WxCC, a queue is always mapped to an entry point via routing flows, so let's go back to the Entry Point for outdial and check the configuration again.
 
 - Via Control Hub, under "Customer Experience," go back via "Channel" to the Outdial Entry Point that was configured.
+
+      ![Nav](./assets/2310_Excercise3_1_6.png){ width="500" }
 
 - Under "Entry Point Settings," you will notice that there is no routing flow mapped.
 
