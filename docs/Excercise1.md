@@ -211,7 +211,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the Flow Canvas you can now also check how the calls have travered through valrious nodes by cliking on the Analyze capability and selecting the current day.
 
-      ![Nav](./assets/2310_Excercise1_2_24.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_24.png){ width="900" }
 
 ## Section 3: Analyze Agent Performance with Call Reports
 
