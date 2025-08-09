@@ -30,24 +30,38 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In Control Hub, locate Services and click on Contact Center. 
 
+      ![Nav](./assets/2310_Excercise1_1.png){ width="500" }
+
 - In the Contact Center navigation pane on the left side, scroll down to the Tenant Settings section and click on General.
 
-- Under the General settings, locate the Telephony type. Confirm that it states: Webex Calling.
+      ![Nav](./assets/2310_Excercise1_2.png){ width="500" }
 
-- In the Contact Center navigation pane, under the Customer Experience section, select Channels. Search for the entry point named: "****PreconfiguredEP****".
+- Under the General settings, locate the Telephony type. Confirm that it states: **Webex Calling**.
 
-- Within the details for ****PreconfiguredEP****, locate the Phone Number section and note the Webex Calling location and the Support Number.
+      ![Nav](./assets/2310_Excercise1_3.png){ width="500" }
 
-      - Webex Calling location: [*****]
-      - Support Number: [+******]
+- In the Contact Center navigation pane, under the Customer Experience section, select Channels and search for the entry point named: **EP_1**.
+
+      ![Nav](./assets/2310_Excercise1_4.png){ width="500" }
+
+- Within the details for **EP_1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
+
+      - Webex Calling location: [**site1**]
+      - Support Number: [+19842990142]
+
+      ![Nav](./assets/2310_Excercise1_5.png){ width="500" }
 
 - Go back to the main menu of Control Hub. 
 
 - Under the Management section, select Locations. In the Locations search bar, enter the Webex Calling location name you discovered in the previous step. 
 
-- Select the discovered location and review the Calling Connection details. In our case, the calling connection should be: Intelepeer.
+      ![Nav](./assets/2310_Excercise1_6.png){ width="500" }
 
-- Based on the observed calling connection (e.g., Intelepeer) and the information presented in the call flow slides, this configuration matches Flow Type 1.
+- Select the discovered location and click on the Calling Connection details. In Main number section select the "support Number" Identified in the previous step.  In our case, the calling PSTN connection is: Cisco Calling Plan.
+
+      ![Nav](./assets/2310_Excercise1_7.png){ width="500" }
+
+- Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
 
 ## Section 2 : Configre and Debug an Inbound Flow
