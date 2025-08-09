@@ -276,6 +276,6 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 -  The same process can be used to explore the "**Queue Activity By Queue**" report.
 
-Congratulations ! on completing this section of the lab! 
+**Congratulations !!** on completing this section of the lab! 
 
 You've successfully navigated the complexities of call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.

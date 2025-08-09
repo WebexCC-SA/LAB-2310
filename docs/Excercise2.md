@@ -116,7 +116,7 @@ Note!!!
 
 - This confirms that the second problem of variables being lost has also been resolved.
 
-Congratulations on successfully completing this exercise! 
+**Congratulations !!** on successfully completing this exercise! 
 
 You've learned how to perform seamless internal transfers within entry points and now understand the crucial difference between a Blind Transfer and a GoTo Nod
 

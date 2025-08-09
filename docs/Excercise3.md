@@ -151,7 +151,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 ****If you wish to override this defauly ANI with your ANI you can 
 
-Congratulations on completing this exercise! 
+**Congratulations !!** on completing this exercise! 
 
 You've not only set up the outdial feature from scratch but also learned how to identify and fix common errors, ensuring your deployments are both functional and reliable.
 
