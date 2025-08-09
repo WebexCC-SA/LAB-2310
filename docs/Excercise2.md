@@ -40,7 +40,7 @@ The current flow is as follows:
 
 - On the desktop, you should see two variables, "Wbex_one_Tansfer" and "Webex one." However, you will notice that they are not appearing.
 
-      ![Nav](./assets/2310_Excercise2_1_1.png){ width="500" }
+      ![Nav](./assets/2310_Excercise2_1_1.png){ width="800" }
 
 - **This is the second problem**: The original variables collected in the first flow are being dropped during the transfer.
 
@@ -54,7 +54,7 @@ The current flow is as follows:
 
 - In the menu node for Option 1, you will notice that it maps to a "Blind Transfer" node.
 
-      ![Nav](./assets/2310_Excercise2_1_3.png){ width="500" }
+      ![Nav](./assets/2310_Excercise2_1_3.png){ width="700" }
 
 - Select the Blind Transfer node, and you will see it is transferring the call to a number "**??????**" that is mapped to a different flow called "**Webexone_transfer**"
 
@@ -82,15 +82,15 @@ Note!!!
 
 - Delete the Blind Transfer node by selecting it and pressing the delete key.
 
-      ![Nav](./assets/2310_Excercise2_1_7.png){ width="500" }
+      ![Nav](./assets/2310_Excercise2_1_7.png){ width="700" }
 
 - From the Flow Control section, drag a "GoTo Node" onto the canvas.
 
-      ![Nav](./assets/2310_Excercise2_1_8.png){ width="500" }
+      ![Nav](./assets/2310_Excercise2_1_8.png){ width="200" }
 
 - In the GoTo Node's properties, select "Entry point" as the destination type and map it to "**Webexone_transfer_EP**"
 
-      ![Nav](./assets/2310_Excercise2_1_9.png){ width="200" }
+      ![Nav](./assets/2310_Excercise2_1_9.png){ width="700" }
 
 - Connect the Menu node's Option 1 output to the GoTo Node and the "undefined" error output to the "End of the flow" node, as shown in the screenshot above 
 
@@ -112,7 +112,7 @@ Note!!!
 
 - After the call is accepted, you should now see the two variables defined in the first flow on the agent desktop.
 
-      ![Nav](./assets/2310_Excercise2_1_1.png){ width="500" }
+      ![Nav](./assets/2310_Excercise2_1_1.png){ width="800" }
 
 - This confirms that the second problem of variables being lost has also been resolved.
 
