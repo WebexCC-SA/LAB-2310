@@ -18,26 +18,38 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - In Control Hub, navigate to Services and click on Contact Center.
 
+      ![Nav](./assets/2310_Excercise3_1_1.png){ width="200" }
+
 - In the Contact Center navigation pane, under Customer Experience, select Queues.
+
+      ![Nav](./assets/2310_Excercise3_1_2.png){ width="200" }
 
 - Create a new queue by clicking on the "Create a Queue" option.
 
+      ![Nav](./assets/2310_Excercise3_1_2.png){ width="500" }
+
 - The Queue Creation Wizard will appear. Provide the following details:
 
-      - General
-            - Name: [Provide a descriptive name for your queue]
-            - Contact Direction: Outdial Queue
-            - Channel Type: Telephony
+      - **General**
+           - **Name**: [Provide a descriptive name for your queue]
+           - **Contact Direction**: Outdial Queue
+           - **Channel Type**: Telephony
 
-      - Contact Routing Settings
+      ![Nav](./assets/2310_Excercise3_1_3.png){ width="500" }
+
+      - **Contact Routing Settings**
             - Agent Assignment: Teams
             - Routing Pattern: Longest available
-            - Call Distribution: Create a group (Decide on a Team Name)
+            - Call Distribution: Create a group and add the team **??????**
 
-      - Advanced Settings
+      ![Nav](./assets/2310_Excercise3_1_4.png){ width="500" }
+
+      - **Advanced Settings**
             - Service Level Threshold: 30 seconds
             - Maximum Time in Queue: 30 seconds
             - Default Music in Queue: defaultmusic_on_hold.wav
+
+      ![Nav](./assets/2310_Excercise3_1_5.png){ width="500" }
 
 - Once these settings are added, click Create to finalize the queue.
 
