@@ -77,9 +77,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
       ![Nav](./assets/2310_Excercise1_2_2.png){ width="200" }
 
 - Confirm that 
-      - "End Call" and "End Consult"is enabled.
-      - "Auto Wrap-up interval" is set to 600 seconds.
-      - "Telephony RONA timeout" is set to 12 seconds.
+      - "End Call" and "**End Consult**"is enabled.
+      - "Auto Wrap-up interval" is set to **600 seconds**.
+      - "Telephony RONA timeout" is set to **12 seconds**.
 
       ![Nav](./assets/2310_Excercise1_2_3.png){ width="700" }
 
@@ -110,24 +110,24 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 
 - In the "Channel Creation Wizard," provide the following details:
-      - Name: [Provide a descriptive name for your channel]
-      - Channel Type: Inbound Telephony
+      - Name: **Provide a descriptive name for your channel**
+      - Channel Type: **Inbound Telephony**
 
       ![Nav](./assets/2310_Excercise1_2_9.png){ width="700" }
 
    
-      - Service Level Threshold: 30 seconds
-      - Timezone: America/New York
-      - Routing flow: Select <User*_routing_Flow>
-      - Music on hold: "defaultmusic_on_hold"
-      - Version label: Latest
+      - Service Level Threshold: **30 seconds**
+      - Timezone: **America/New York**
+      - Routing flow: **Select ???????**
+      - Music on hold: **defaultmusic_on_hold**
+      - Version label: **Latest**
 
       ![Nav](./assets/2310_Excercise1_2_10.png){ width="700" }
 
 - In the "Phone numbers" section, select the following:
-      - Number Webex Calling location:
-      - Support number:
-      - PSTN Region:
+      - Number Webex Calling location: **???????**
+      - Support number: **???????**
+      - PSTN Region: **???????**
 
       ![Nav](./assets/2310_Excercise1_2_11.png){ width="700" }
 
@@ -137,18 +137,27 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - With this logic, let's check the queue and make the necessary configuration.
 
-- In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue <User*_queue>. 
+- In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue **??????**. 
+
+      ![Nav](./assets/2310_Excercise1_2_12.png){ width="200" }
 
 - In Contact Routing Settings, confirm these settings:
       - Agent Assignment: Teams
       - Routing Pattern: Longest available
 
-- For, Call Distribution: In group 1, click on the action and ensure the team <User*_Team> is added.
+      ![Nav](./assets/2310_Excercise1_2_13.png){ width="700" }
+
+- For, Call Distribution: Create the group and in group 1, click on the action and ensure the team **team** is added.
+
+      ![Nav](./assets/2310_Excercise1_2_14.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_15.png){ width="200" }
 
 - In Advanced Settings, ensure that these values are accurate:
       - Service Level Threshold: 30 seconds
       - Maximum Time in Queue: 30 seconds
       - Default Music in Queue: defaultmusic_on_hold.wav
+
+      ![Nav](./assets/2310_Excercise1_2_16.png){ width="500" }
 
 - Click Save to finalize the queue.
 
