@@ -55,11 +55,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Navigate back to Customer Experience in Contact Center and click on Channels.
 
-      ![Nav](./assets/2310_Excercise3_1_6.png){ width="250" }
+      ![Nav](./assets/2310_Excercise3_1_6.png){ width="200" }
 
 - Create a new channel by clicking on the "Create a channel" option.
 
-      ![Nav](./assets/2310_Excercise3_1_7.png){ width="150" }
+      ![Nav](./assets/2310_Excercise3_1_7.png){ width="180" }
 
 - The Channel Creation Wizard will appear. Provide the following details:
 
