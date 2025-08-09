@@ -150,7 +150,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_14.png){ width="600" }
 
-      ![Nav](./assets/2310_Excercise1_2_15.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_15.png){ width="200" }
 
 - In Advanced Settings, ensure that these values are accurate:
       - Service Level Threshold: **30 seconds**
