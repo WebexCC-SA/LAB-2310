@@ -34,7 +34,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the Contact Center navigation pane on the left side, scroll down to the Tenant Settings section and click on General.
 
-      ![Nav](./assets/2310_Excercise1_2.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2.png){ width="400" }
 
 - Under the General settings, locate the Telephony type. Confirm that it states: **Webex Calling**.
 
@@ -59,7 +59,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Select the discovered location and click on the Calling Connection details. In Main number section select the "support Number" Identified in the previous step.  In our case, the calling PSTN connection is: Cisco Calling Plan.
 
-      ![Nav](./assets/2310_Excercise1_7.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_7.png){ width="800" }
 
 - Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
@@ -150,7 +150,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_14.png){ width="600" }
 
-      ![Nav](./assets/2310_Excercise1_2_15.png){ width="200" }
+      ![Nav](./assets/2310_Excercise1_2_15.png){ width="400" }
 
 - In Advanced Settings, ensure that these values are accurate:
       - Service Level Threshold: **30 seconds**
@@ -227,7 +227,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Next, make another call. This time, when the call is presented to the agent, reject the call.
 
-      ![Nav](./assets/2310_Excercise1_3_2.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_2.png){ width="600" }
 
 - Now that you have a variety of calls in the system, you can explore the reports to see how to track "**Contact Offer**" and "**Assignment Failures**" to the agent.
 
@@ -237,13 +237,13 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click on "Visualization" and select the folder with your user details, **???????**.
 
-      ![Nav](./assets/2310_Excercise1_3_4.png){ width="200" }
+      ![Nav](./assets/2310_Excercise1_3_4.png){ width="100" }
 
 - There are two reports in the folder which are copy of the stock report: 
       - "**Agent Trace Report**" and 
       - "**Queue Activity By Queue Report**".
 
-      ![Nav](./assets/2310_Excercise1_3_5.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_3_5.png){ width="800" }
       
 - Each report includes three columns:
       - **RONA Count**: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
@@ -252,7 +252,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - To review the "Agent Trace" report, first click on the "Edit" option 
 
-      ![Nav](./assets/2310_Excercise1_3_6.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_6.png){ width="700" }
 
 - Ensure that the start time of the report is set for "Today."
 
@@ -260,17 +260,17 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
 
-      ![Nav](./assets/2310_Excercise1_3_8.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_3_8.png){ width="1000" }
 
 - Save the visualizationand Click the "Preview" option.
 
 - You should now see counts for "RONA" and "Call Reject." Click on the value and the magnification symbol for a further drill-down of the number.
 
-      ![Nav](./assets/2310_Excercise1_3_9.png){ width="800" }
+      ![Nav](./assets/2310_Excercise1_3_9.png){ width="1000" }
 
 - A new window will pop up with all the details of this call. As needed, you can add fields and measures from the available options to get all the desired information related to the call and the agent.
 
-      ![Nav](./assets/2310_Excercise1_3_10.png){ width="800" }
+      ![Nav](./assets/2310_Excercise1_3_10.png){ width="1000" }
 
 - To test this, you can click on "Agent ID" and it will be appended to the end of the report as a new column.
 
