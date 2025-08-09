@@ -237,7 +237,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click on "Visualization" and select the folder with your user details, **???????**.
 
-      ![Nav](./assets/2310_Excercise1_3_4.png){ width="100" }
+      ![Nav](./assets/2310_Excercise1_3_4.png){ width="200" }
 
 - There are two reports in the folder which are copy of the stock report: 
       - "**Agent Trace Report**" and 
@@ -260,7 +260,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
 
-      ![Nav](./assets/2310_Excercise1_3_8.png){ width="1000" }
+      ![Nav](./assets/2310_Excercise1_3_8.png){ width="850" }
 
 - Save the visualizationand Click the "Preview" option.
 
