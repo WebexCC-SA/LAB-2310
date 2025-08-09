@@ -26,8 +26,6 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Create a new queue by clicking on the "Create a Queue" option.
 
-      ![Nav](./assets/2310_Excercise3_1_2.png){ width="500" }
-
 - The Queue Creation Wizard will appear. Provide the following details:
 
       - **General**
@@ -35,7 +33,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
            - **Contact Direction**: Outdial Queue
            - **Channel Type**: Telephony
 
-      ![Nav](./assets/2310_Excercise3_1_3.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_3.png){ width="800" }
 
       - **Contact Routing Settings**
             - Agent Assignment: Teams
