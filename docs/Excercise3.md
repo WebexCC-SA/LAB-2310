@@ -86,7 +86,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - In the General section, provide the desired name for your profile.
 
-      ![Nav](./assets/2310_Excercise3_1_11.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_11.png){ width="700" }
 
 - Move to "Dial Plans" by clicking Next.
 
@@ -94,11 +94,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - Select the preconfigured "**?????**" as an "**Outdial Entry Point**".
       - Select the preconfigured "**??????**" as an "**Address Book**".
 
-      ![Nav](./assets/2310_Excercise3_1_12.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_12.png){ width="700" }
 
 - Move to "Voice Channel Options" by clicking Next and ensure that "Desktop" is enabled under "Voice Channels options".
 
-      ![Nav](./assets/2310_Excercise3_1_13.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_13.png){ width="700" }
 
 - Proceed to the end of desktop profile creation by clicking Next and finally Create.
 
@@ -106,7 +106,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Assign your newly created desktop profile under "Desktop Profile" and Save changes.
 
-      ![Nav](./assets/2310_Excercise3_1_14.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_14.png){ width="700" }
 
 ## Section 2 : Test Outdial 
 
