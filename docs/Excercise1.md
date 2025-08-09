@@ -237,13 +237,13 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click on "Visualization" and select the folder with your user details, **???????**.
 
-      ![Nav](./assets/2310_Excercise1_3_4.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_4.png){ width="200" }
 
 - There are two reports in the folder which are copy of the stock report: 
-      - "Agent Trace Report" and 
-      - "Queue Activity By Queue Report.
+      - "**Agent Trace Report**" and 
+      - "**Queue Activity By Queue Report**".
 
-      ![Nav](./assets/2310_Excercise1_3_5.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_5.png){ width="700" }
       
 - Each report includes three columns:
       - **RONA Count**: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
@@ -252,7 +252,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - To review the "Agent Trace" report, first click on the "Edit" option 
 
-      ![Nav](./assets/2310_Excercise1_3_6.png){ width="300" }
+      ![Nav](./assets/2310_Excercise1_3_6.png){ width="500" }
 
 - Ensure that the start time of the report is set for "Today."
 
@@ -260,17 +260,17 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
 
-      ![Nav](./assets/2310_Excercise1_3_8.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_8.png){ width="700" }
 
 - Save the visualizationand Click the "Preview" option.
 
 - You should now see counts for "RONA" and "Call Reject." Click on the value and the magnification symbol for a further drill-down of the number.
 
-      ![Nav](./assets/2310_Excercise1_3_9.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_9.png){ width="800" }
 
 - A new window will pop up with all the details of this call. As needed, you can add fields and measures from the available options to get all the desired information related to the call and the agent.
 
-      ![Nav](./assets/2310_Excercise1_3_10.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_3_10.png){ width="800" }
 
 - To test this, you can click on "Agent ID" and it will be appended to the end of the report as a new column.
 
