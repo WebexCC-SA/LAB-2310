@@ -55,11 +55,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Navigate back to Customer Experience in Contact Center and click on Channels.
 
-      ![Nav](./assets/2310_Excercise3_1_6.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_6.png){ width="300" }
 
 - Create a new channel by clicking on the "Create a channel" option.
 
-      ![Nav](./assets/2310_Excercise3_1_7.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_7.png){ width="100" }
 
 - The Channel Creation Wizard will appear. Provide the following details:
 
@@ -68,7 +68,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - **Service Level Threshold**: 30 seconds
       - **Timezone**: America/New York
 
-      ![Nav](./assets/2310_Excercise3_1_8.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_8.png){ width="700" }
 
 - After these settings are added, click Create to finalize the channel.
 
