@@ -111,25 +111,35 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 ## Section 2 : Test Outdial 
 
 - Now, log in to the Agent Desktop using the provided credentials.
-      - URL: https://desktop.wxcc-us1.cisco.com/
-      - Username: Contact the lab proctor if information is unavailable.
-      - Password: Contact the lab proctor if information is unavailable.
+      - **URL**: https://desktop.wxcc-us1.cisco.com/
+      - **Username**: Contact the lab proctor if information is unavailable.
+      - **Password**: Contact the lab proctor if information is unavailable.
 
-- Please select desktop as telephony option and  and set the Team as ************* and login 
+- Please select desktop as telephony option and set the Team as **??????** and login.
+
+<<<<<<<<<<sCREEN shOT>>>>>>>>>>
 
 - Present task is to dial your cell phone number. 
 
-- First, click the Outdial Call option. 
+- First, click the Outdial Call option on the top right corner of the desktop. 
+
+      ![Nav](./assets/2310_Excercise3_1_16.png){ width="200" }
 
 - You'll notice that the dial pad is missing; the only available option is to search by name, email, or number within the tenant. 
 
+      ![Nav](./assets/2310_Excercise3_1_17.png){ width="700" }
+
 - This prevents us from dialing an individual cell phone number directly. 
 
-- To fix this, we need to find where the dial pad setting is controlled. Since this is an agent desktop function, we'll check the agent's desktop profile and the dial plan where we enabled the outdial option.
+- To fix this, we need to find where the dial pad setting is controlled. 
+
+- Since this is an agent desktop function, we'll check the agent's desktop profile and the dial plan where we enabled the outdial option.
 
 - In Control Hub, go back to the Desktop Profile section. Select the profile that's mapped to the agent you are working with.
 
 - Navigate to the Dial Plans tab. Enable the dial plan functionality and select US as the dial plan. Then, click Save.
+
+      ![Nav](./assets/2310_Excercise3_1_18.png){ width="700" }
 
 - Refresh the Agent Desktop application. Click the Outdial option again.
 
@@ -139,7 +149,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Click the Dial button.
 
-- From the Agent Desktop, dial the cell phone number using the dial pad. You should ideally see an agent-initiated call to the cell phone number, but nothing happens.
+- You should ideally see an agent-initiated call to the cell phone number, but nothing happens.
 
 ## Section 3 : Troubleshoot Outdial Failure
 
