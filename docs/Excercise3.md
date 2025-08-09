@@ -159,19 +159,19 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Once the developer tool is up, ensure that it's on the "Console" tab and clear the console logs by selecting the "Clear Console" button 
 
-      ![Nav](./assets/2310_Excercise3_1_19.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_19.png){ width="500" }
 
 - Using the dial pad, dial the cell phone number again.
 
 - As soon as the call fails, you should see a red error message in the console logs.
 
-      ![Nav](./assets/2310_Excercise3_1_20.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_20.png){ width="700" }
 
 - Now, let's look closer into the error message and figure out what the issue might be.
 
 - Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "**Config**" – "**Config_fetch_error**." The exact config it's talking about is "**queuemgr**" which basically means queue.
 
-      ![Nav](./assets/2310_Excercise3_1_21.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" }
 
 - This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
 
@@ -179,7 +179,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Via Control Hub, under "Customer Experience," go back via "Channel" to the Outdial Entry Point that was configured.
 
-      ![Nav](./assets/2310_Excercise3_1_6.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_6.png){ width="200" }
 
 - Under "Entry Point Settings," you will notice that there is no routing flow mapped.
 
