@@ -154,31 +154,26 @@ After creating the inbound flow and presenting calls to a test agent, participan
       ![Nav](./assets/2310_Excercise1_2_15.png){ width="500" }
 
 - In Advanced Settings, ensure that these values are accurate:
-      - Service Level Threshold: 30 seconds
-      - Maximum Time in Queue: 30 seconds
-      - Default Music in Queue: defaultmusic_on_hold.wav
+      - Service Level Threshold: **30 seconds**
+      - Maximum Time in Queue: **30 seconds**
+      - Default Music in Queue: **defaultmusic_on_hold.wav**
 
-      ![Nav](./assets/2310_Excercise1_2_16.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_16.png){ width="800" }
 
 - Click Save to finalize the queue.
 
 - It's time to now test the call. To do this, log in to the Agent Desktop using the provided credentials.
       - URL: https://desktop.wxcc-us1.cisco.com/
       - Username: **Contact the lab proctor if information is unavailable.**
-      - Password: **Contact the lab proctor if information is unavailable.**
+      - Password: **Contact the lab proctor if information is unavailable.** <br>
 
-      
-- Please select **Desktop** as the telephony option, set the Team as **?????** , and log in.
+- Please select **Desktop** as the telephony option, set the Team as **?????** , and log in. <br>
 
+- Place a call from your cell phone to the Dialed Number **?????** and option 0 to reach the logged-in agent. <br>
 
-- Place a call from your cell phone to the Dialed Number **?????** and option 0 to reach the logged-in agent.
+- However, you will notice the call is never presented to the agent, and the caller hears music on hold.<br>
 
-
-- However, you will notice the call is never presented to the agent, and the caller hears music on hold.
-
-
-- Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call.
-
+- Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call. <br>
 
 - In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, "**??**"
 
@@ -196,13 +191,13 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 <<<<????? Scren shot Needed >>>>
 
-- This ID belongs to a queue that you have not configured with a team and agent, so the call is not reaching the agent.
+- This ID belongs to a queue that you have not configured with a team and agent, so the call is not reaching the agent. <br>
 
 - To correct this, come back into the Design section of the flow and click on the "Edit" option in the flow.
 
       ![Nav](./assets/2310_Excercise1_2_21.png){ width="700" }
 
-- select the "Queue contact" node, and from the drop-down menu, select the queue that has your team and the agent.
+- Select the "Queue contact" node, and from the drop-down menu, select the queue that has your team and the agent.
 
       ![Nav](./assets/2310_Excercise1_2_22.png){ width="700" }
 
@@ -213,13 +208,11 @@ After creating the inbound flow and presenting calls to a test agent, participan
 !!! Note 
       When publishing, it is important to ensure the label you have set is the same one that was set when the entry point was being mapped to the routing flow.
 
-- Place another call from your cell phone to the dialed number **????** and select option 0 to succesfully reach the logged-in agent.
-
+- Place another call from your cell phone to the dialed number **????** and select option 0 to succesfully reach the logged-in agent. <br>
 
 - In the Flow Canvas you can now also check how the calls have travered through valrious nodes by cliking on the Analyze capability and selecting the current day.
 
       ![Nav](./assets/2310_Excercise1_2_24.png){ width="700" }
-
 
 ## Section 3: Analyze Agent Performance with Call Reports
 
