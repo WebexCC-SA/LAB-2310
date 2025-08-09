@@ -149,8 +149,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - For, Call Distribution: Create the group and in group 1, click on the action and ensure the team **team** is added.
 
-      ![Nav](./assets/2310_Excercise1_2_14.png){ width="700" }
-      ![Nav](./assets/2310_Excercise1_2_15.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_14.png){ width="600" }
+
+      ![Nav](./assets/2310_Excercise1_2_15.png){ width="500" }
 
 - In Advanced Settings, ensure that these values are accurate:
       - Service Level Threshold: 30 seconds
