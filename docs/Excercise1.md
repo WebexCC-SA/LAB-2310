@@ -166,36 +166,58 @@ After creating the inbound flow and presenting calls to a test agent, participan
       - Username: **Contact the lab proctor if information is unavailable.**
       - Password: **Contact the lab proctor if information is unavailable.**
 
-- Please select Desktop as the telephony option, set the Team as *************, and log in.
+      
+- Please select **Desktop** as the telephony option, set the Team as **?????** , and log in.
 
-- Place a call from your cell phone to the Dialed Number +***** and option 0 to reach the logged-in agent.
+
+- Place a call from your cell phone to the Dialed Number **?????** and option 0 to reach the logged-in agent.
+
 
 - However, you will notice the call is never presented to the agent, and the caller hears music on hold.
 
+
 - Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call.
 
-- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, "<<<<<User*_Flow>>>>>."
+
+- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, "**??**"
+
+      ![Nav](./assets/2310_Excercise1_2_17.png){ width="200" }
 
 - Click on the "Debug" option and review the last call.
 
-- You will notice that the call passed through the "Menu" node, was parked into the queue where the entered option was "0," and the "Play message" node played the assigned WAV file.
+      ![Nav](./assets/2310_Excercise1_2_18.png){ width="700" }
+
+- You will notice that the call passed through the "**Menu**" node, was parked into the queue where the entered option was "**0**," and the "**Play message**" node played the assigned WAV file.
+
+<<<<????? Scren shot Needed >>>>
 
 - In the "QueueContact" node, you will see an "Activity Output QueueID."
+
+<<<<????? Scren shot Needed >>>>
 
 - This ID belongs to a queue that you have not configured with a team and agent, so the call is not reaching the agent.
 
 - To correct this, come back into the Design section of the flow and click on the "Edit" option in the flow.
 
+      ![Nav](./assets/2310_Excercise1_2_21.png){ width="700" }
+
 - select the "Queue contact" node, and from the drop-down menu, select the queue that has your team and the agent.
 
+      ![Nav](./assets/2310_Excercise1_2_22.png){ width="700" }
+
 - Toggle "Validation" to "On" to ensure there are no validation errors, and then publish the flow.
+
+      ![Nav](./assets/2310_Excercise1_2_23.png){ width="700" }
 
 !!! Note 
       When publishing, it is important to ensure the label you have set is the same one that was set when the entry point was being mapped to the routing flow.
 
-- Place another call from your cell phone to the dialed number +***** and select option 0 to succesfully reach the logged-in agent.
+- Place another call from your cell phone to the dialed number **????** and select option 0 to succesfully reach the logged-in agent.
+
 
 - In the Flow Canvas you can now also check how the calls have travered through valrious nodes by cliking on the Analyze capability and selecting the current day.
+
+      ![Nav](./assets/2310_Excercise1_2_24.png){ width="700" }
 
 
 ## Section 3: Analyze Agent Performance with Call Reports
