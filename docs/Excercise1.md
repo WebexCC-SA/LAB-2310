@@ -104,22 +104,31 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Now, let's start building the entry point for the external call. To do this, navigate to "Customer Experience" and select "Channels."
 
+      ![Nav](./assets/2310_Excercise1_2_8.png){ width="200" }
+
 - Click "Create a channel."
 
 - In the "Channel Creation Wizard," provide the following details:
       - Name: [Provide a descriptive name for your channel]
       - Channel Type: Inbound Telephony
+
+      ![Nav](./assets/2310_Excercise1_2_9.png){ width="700" }
+
+   
       - Service Level Threshold: 30 seconds
       - Timezone: America/New York
-
       - Routing flow: Select <User*_routing_Flow>
       - Music on hold: "defaultmusic_on_hold"
       - Version label: Latest
+
+      ![Nav](./assets/2310_Excercise1_2_10.png){ width="500" }
 
 - In the "Phone numbers" section, select the following:
       - Number Webex Calling location:
       - Support number:
       - PSTN Region:
+
+      ![Nav](./assets/2310_Excercise1_2_11.png){ width="700" }
 
 - After adding these settings, click "Create" to finalize the channel.
 
