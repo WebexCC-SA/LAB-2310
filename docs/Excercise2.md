@@ -28,7 +28,7 @@ The current flow is as follows:
 
 - Ensure that the agent is logged into the desktop and has an "Available" status.
 
-- Call the provided number "**+1......**" from your cell phone and press Option 1. 
+- Call the provided number "**+1.....**" from your cell phone and press Option 1. 
 
 - You will hear a **ringback** and a menu prompting you to enter your user ID.
 
@@ -38,29 +38,29 @@ The current flow is as follows:
 
 - Accept the call. 
 
-- On the desktop, you should see two variables, "Wbex_one_Tansfer" and "Webex one." However, you will notice that they are not appearing.
+- On the desktop, you should see two flow variables, "**Wbex_one_Tansfer**" and "**Webex_one**" However, you will notice that they are not appearing.
 
       ![Nav](./assets/2310_Excercise2_1_1.png){ width="800" }
 
-- **This is the second problem**: The original variables collected in the first flow are being dropped during the transfer.
+- **This is the second problem**: The original flow variables collected in the first flow are being dropped during the transfer.
 
 ## Section 2 : Inspect the Flow
 
 - To understand why this is happening, let's inspect the first flow.
 
-- In the Customer Experience section of Control Hub, select "Flows" and search for the flow you have mapped to your entry point, "**???????**."
+- In the Customer Experience section of Control Hub, select "Flows" and search for the flow you have mapped to your entry point, "**WebexOne_Flow_User[num]**."
 
       ![Nav](./assets/2310_Excercise2_1_2.png){ width="200" }
 
-- In the menu node for Option 1, you will notice that it maps to a "Blind Transfer" node.
+- In the menu node for Option 1, you will notice that it maps to a "**Blind Transfer**" node.
 
       ![Nav](./assets/2310_Excercise2_1_3.png){ width="700" }
 
-- Select the Blind Transfer node, and you will see it is transferring the call to a number "**??????**" that is mapped to a different flow called "**Webexone_transfer**"
+- Select the Blind Transfer node, and you will see it is transferring the call to a number "**19842990193**" that is mapped to a different flow called "**Webexone_transfer**"
 
       ![Nav](./assets/2310_Excercise2_1_4.png){ width="500" }
 
-- This is the core of the problem. We are instructing the flow to transfer the call to an external number, which creates a new call leg. As a result, the variables as well defined in this flow are not being passed to the "Webexone_transfer" flow.
+- This is the core of the problem. We are instructing the flow to transfer the call to an external number, which creates a new call leg. As a result, the variables as well defined in this flow are not being passed to the "**Webexone_transfer**" flow.
 
 - To check these variables, click on any empty space on the flow canvas and review the right side of the flow.
 
@@ -88,7 +88,7 @@ Note!!!
 
       ![Nav](./assets/2310_Excercise2_1_8.png){ width="200" }
 
-- In the GoTo Node's properties, select "Entry point" as the destination type and map it to "**Webexone_transfer_EP**"
+- In the GoTo Node's properties, select "Entry point" as the destination type and map it to "**WebexOne_Transfer_EP**"
 
       ![Nav](./assets/2310_Excercise2_1_9.png){ width="700" }
 
@@ -102,7 +102,7 @@ Note!!!
 
 - Ensure that the agent is logged into the desktop and has an "Available" status.
 
-- Call your provided number "**1......**" from your cell phone again and press Option 1. 
+- Call your provided number from your cell phone again and press Option 1. 
 
 - You should hear no ringback, but instead, be directly presented with the menu option to enter your user ID.
 
