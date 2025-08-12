@@ -112,7 +112,7 @@ Note!!!
 
 - After the call is accepted, you should now see the two variables defined in the first flow on the agent desktop.
 
-      ![Nav](./assets/2310_Excercise2_1_1.png){ width="800" }
+      ![Nav](./assets/2310_Excercise2_1_1.png){ width="900" }
 
 - This confirms that the second problem of variables being lost has also been resolved.
 
