@@ -36,16 +36,16 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       ![Nav](./assets/2310_Excercise3_1_3.png){ width="800" }
 
       - **Contact Routing Settings**
-            - Agent Assignment: Teams
-            - Routing Pattern: Longest available
-            - Call Distribution: Create a group and add the team **??????**
+           - **AgentAssignment**: Teams
+           - **Routing Pattern**: Longest available
+           - **Call Distribution**: Create a group and add the team **WebeOne_Team_[num]**
 
       ![Nav](./assets/2310_Excercise3_1_4.png){ width="700" }
 
       - **Advanced Settings**
-            - Service Level Threshold: 30 seconds
-            - Maximum Time in Queue: 30 seconds
-            - Default Music in Queue: defaultmusic_on_hold.wav
+           - **Service Level Threshold**: 30 seconds
+           - **Maximum Time in Queue**: 30 seconds
+           - **Default Music in Queue**: defaultmusic_on_hold.wav
 
       ![Nav](./assets/2310_Excercise3_1_5.png){ width="700" }
 
@@ -91,8 +91,8 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 - Move to "Dial Plans" by clicking Next.
 
 - Enable "**Outdial**".
-      - Select the preconfigured "**?????**" as an "**Outdial Entry Point**".
-      - Select the preconfigured "**??????**" as an "**Address Book**".
+      - Select the newlt create entrypoint as an "**Outdial Entry Point**".
+      - Select the preconfigured address book "**WebexOne_outdial_AddressBook**" as an "**Address Book**".
 
       ![Nav](./assets/2310_Excercise3_1_12.png){ width="700" }
 
@@ -115,7 +115,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - **Username**: Contact the lab proctor if information is unavailable.
       - **Password**: Contact the lab proctor if information is unavailable.
 
-- Please select desktop as telephony option and set the Team as **??????** and login.
+- Please select desktop as telephony option and set the Team as **WebexOne_Team_[num]** and login.
 
 <<<<<<<<<<sCREEN shOT>>>>>>>>>>
 
@@ -183,7 +183,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Under "Entry Point Settings," you will notice that there is no routing flow mapped.
 
-- From the dropdown, select the flow "******************" and fill in these fields:
+- From the dropdown, select the flow "**WebexOne_OutdialUser[num]_Flow**" and fill in these fields:
       - Music on hold: "defaultmusic_on_hold"
       - Version label: Latest
       - Outdial Queue: Select the queue that was created in step 1 of your initial setup.
