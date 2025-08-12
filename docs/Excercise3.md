@@ -194,10 +194,47 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - If you observe the browser debug console logs, you should see a message that will clearly show case its fetching the config and have the team details via the queue ID.
 
-!!! Note
-  In this lab, the outdial ANI noticed on the cell phone is the configuration that is set on the tenant level under "Tenant settings" and the "Voice" tab.
+## Section 4 : Custom Outdial ANI 
 
-****If you wish to override this defauly ANI with your ANI you can 
+- In many cases, business requirements dictate that the Outdial ANI displayed on customer devices should be set to a specific toll-free or departmental number.
+
+- Here, the outdial ANI noticed on the cell phone is "9842990134" which is the default configuration set on the tenant level.
+
+- To, review the Tenant-Level Outdial ANI setting in tenant Settings navigate to the Voice tab and note the existing Outdial ANI which is 9842990134.
+
+      ![Nav](./assets/2310_Excercise3_1_22.png){ width="500" }
+
+- To change to a custom ANI, administrator can create there own outdial ANI.
+
+- For ease here outdial ANI has already been pre-configured and to review in Desktop Experience, go to Outdial ANI settings.
+
+      ![Nav](./assets/2310_Excercise3_1_23.png){ width="200" }
+
+- Select WebexOne_Outdial_ANI.
+
+      ![Nav](./assets/2310_Excercise3_1_24.png){ width="200" }
+
+- Confirm that it is mapped to the number 9842990206.
+
+      ![Nav](./assets/2310_Excercise3_1_25.png){ width="200" }
+
+- A custom Outdial ANI allows an agent to select the ANI on the desktop during an outdial call, provided the agent’s desktop profile is mapped to the new Outdial ANI.
+
+- To check in Desktop Experience, open the configured Agent Desktop Profile.
+
+- Navigate to the Dial Plans section.
+
+- In the Outdial ANI field, select WebexOne_Outdial_ANI and save your changes.
+
+      ![Nav](./assets/2310_Excercise3_1_26.png){ width="200" }
+
+- Now, Perform an Outdial Call Using the Custom ANI.
+
+- Log in or refresh the agent desktop.
+
+- Initiate an outdial call.
+
+- Verify on the recipient’s device that the displayed ANI is the custom number i.e. 9842990206.
 
 **Congratulations !!** on completing this exercise! 
 
