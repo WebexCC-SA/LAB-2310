@@ -1,3 +1,3 @@
-# Related Sessions at Cisco Live
+# Related Sessions at Webex One 
 
 - [BRKXXX-1111](https://www.ciscolive.com/global/learn/technical-education/session-catalog.html?search=BRKXXX-1111#/) My friend's breakout session
