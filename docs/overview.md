@@ -10,15 +10,5 @@ Although the lab design and configuration examples could be used as a reference,
 
 ## Lab Access
 
-From your workstation open an RDP (Remote Desktop) session to the following host named "wkst1":
+This lab leverages Webex Contact Center cloud environment.
 
-- IP: 1.2.3.4
-- Username: corp\demouser
-- Password: C1sco12345
-
-## Getting Started
-
-This lab leverages Cisco WxCC ORG
-We HAve 30 DN and that needs to be commited 
-This is the secong Commit 
-this is my third commit lets see if it works now 
