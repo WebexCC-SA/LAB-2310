@@ -212,7 +212,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Select WebexOne_Outdial_ANI.
 
-      ![Nav](./assets/2310_Excercise3_1_24.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_24.png){ width="300" }
 
 - Confirm that it is mapped to the number 9842990206.
 
