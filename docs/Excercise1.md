@@ -87,7 +87,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_4.png){ width="200" }
 
-- Choose the ??????? and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
+- Choose the **WebexOne_AgentProfile** and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
 
       ![Nav](./assets/2310_Excercise1_2_5.png){ width="700" }
 
@@ -98,7 +98,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_6.png){ width="200" }
 
-- Search for the agent <?????????> and, in their agent settings, ensure that the "desktop profile" is mapped to <?????????>.
+- Search for the agent **WebexOneUser[num]** and, in their agent settings, ensure that the "desktop profile" is mapped to **WebexOne_AgentProfile**.
 
       ![Nav](./assets/2310_Excercise1_2_7.png){ width="700" }
 
@@ -117,7 +117,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
    
       - Service Level Threshold: **30 seconds**
       - Timezone: **America/New York**
-      - Routing flow: **Select ???????**
+      - Routing flow: **Select Webexone_Flow_[num]**
       - Music on hold: **defaultmusic_on_hold**
       - Version label: **Latest**
 
@@ -136,7 +136,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - With this logic, let's check the queue and make the necessary configuration. <br>
 
-- In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue **??????**. 
+- In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue **WebexOne_Queue_[num]**. 
 
       ![Nav](./assets/2310_Excercise1_2_12.png){ width="200" }
 
@@ -146,7 +146,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_13.png){ width="800" }
 
-- For, Call Distribution: Create the group and in group 1, click on the action and ensure the team **team** is added.
+- For, Call Distribution: In group 1, click on the action and ensure the team **WebexOne_Team_[num]** is added.
 
       ![Nav](./assets/2310_Excercise1_2_14.png){ width="600" }
 
@@ -166,7 +166,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
       - Username: **Contact the lab proctor if information is unavailable.**
       - Password: **Contact the lab proctor if information is unavailable.** <br>
 
-- Please select **Desktop** as the telephony option, set the Team as **?????** , and log in. <br>
+- Please select **Desktop** as the telephony option, set the Team as **WebexOne_Team_[num]** , and log in. <br>
 
 - Place a call from your cell phone to the Dialed Number **?????** and option 0 to reach the logged-in agent. <br>
 
@@ -174,7 +174,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call. <br>
 
-- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, "**??**"
+- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, **WebexOne_Flow_[num]**
 
       ![Nav](./assets/2310_Excercise1_2_17.png){ width="200" }
 
@@ -196,7 +196,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_21.png){ width="700" }
 
-- Select the "Queue contact" node, and from the drop-down menu, select the queue that has your team and the agent.
+- Select the "Queue contact" node, and from the drop-down menu, select the queue that has your team and the agent i.e **WebexOne_Queue_[num]**
 
       ![Nav](./assets/2310_Excercise1_2_22.png){ width="700" }
 
@@ -235,9 +235,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_3.png){ width="500" }
 
-- Click on "Visualization" and select the folder with your user details, **???????**.
+- Click on "Visualization" and select the folder with your user details, **WebexOne_Report_User[num]**.
 
-      ![Nav](./assets/2310_Excercise1_3_4.png){ width="200" }
+      ![Nav](./assets/2310_Excercise1_3_4.png){ width="500" }
 
 - There are two reports in the folder which are copy of the stock report: 
       - "**Agent Trace Report**" and 
