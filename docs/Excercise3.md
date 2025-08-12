@@ -202,7 +202,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - To, review the Tenant-Level Outdial ANI setting in tenant Settings navigate to the Voice tab and note the existing Outdial ANI which is 9842990134.
 
-      ![Nav](./assets/2310_Excercise3_1_22.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_22.png){ width="700" }
 
 - To change to a custom ANI, administrator can create there own outdial ANI.
 
@@ -212,11 +212,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Select WebexOne_Outdial_ANI.
 
-      ![Nav](./assets/2310_Excercise3_1_24.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_24.png){ width="700" }
 
 - Confirm that it is mapped to the number 9842990206.
 
-      ![Nav](./assets/2310_Excercise3_1_25.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_25.png){ width="700" }
 
 - A custom Outdial ANI allows an agent to select the ANI on the desktop during an outdial call, provided the agent’s desktop profile is mapped to the new Outdial ANI.
 
@@ -226,7 +226,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - In the Outdial ANI field, select WebexOne_Outdial_ANI and save your changes.
 
-      ![Nav](./assets/2310_Excercise3_1_26.png){ width="200" }
+      ![Nav](./assets/2310_Excercise3_1_26.png){ width="700" }
 
 - Now, Perform an Outdial Call Using the Custom ANI.
 
