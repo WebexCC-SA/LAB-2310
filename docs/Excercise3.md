@@ -91,7 +91,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 - Move to "Dial Plans" by clicking Next.
 
 - Enable "**Outdial**".
-      - Select the newlt create entrypoint as an "**Outdial Entry Point**".
+      - Select the newly create entrypoint as an "**Outdial Entry Point**".
       - Select the preconfigured address book "**WebexOne_outdial_AddressBook**" as an "**Address Book**".
 
       ![Nav](./assets/2310_Excercise3_1_12.png){ width="700" }
