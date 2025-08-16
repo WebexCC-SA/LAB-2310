@@ -13,18 +13,18 @@ Please use the following credentials to connect to Control Hub and configure Web
 
 The objective of this self-paced lab is to provide participants with hands-on experience in configuring and debugging tenant call flows, as well as analyzing agent performance through call reports. This excercise has been divided into three sections
 
-- Section 1: Discover Tenant Call Flow Configuration
+- Section 1: Discover Tenant Call Flow Configuration:
 This section aims to familiarize participants with the existing call flow configurations within a tenant environment.
 
-- Section 2: Configure and Debug an Inbound Flow
+- Section 2: Configure and Debug an Inbound Flow:
 In this part, participants will set up an inbound flow with a whisper announcement and a "Team" and "Longest Available" distribution strategy. They will use the flow debugger to identify and resolve common misconfigurations encountered during the setup process.
 
-- Section 3: Analyze Agent Performance with Call Reports
-After creating the inbound flow and presenting calls to a test agent, participants will intentionally trigger specific events. They will reject one call and allow a second to result in a Ring No Answer (RONA) event. This will enable them to explore and analyze call reports to understand agent behavior and pinpoint the root cause of the rejected and RONA calls.
+- Section 3: Analyze Agent Performance with Call Reports:
+After creating the inbound flow and presenting calls to a test agent, participants will intentionally trigger specific events. They will reject one call and allow a second to result in a Re-Route on No Answer (RONA) event. This will enable them to explore and analyze call reports to understand agent behavior and pinpoint the root cause of the rejected and RONA calls.
 
 ## Section 1 : Discover Tenant Call Flow Configuration
 
-- Open your web browser and navigate to https://admin.webex.com. 
+- Open your web browser and navigate to [https://admin.webex.com](https://admin.webex.com)
 
 - Log in using the provided credentials.
 
