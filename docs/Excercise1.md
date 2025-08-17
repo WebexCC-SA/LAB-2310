@@ -44,9 +44,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_4.png){ width="700" }
 
-- Within the details for **EP_1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
+- Click entry point **EP_1** to open details and scroll down to locate the Phone Number section. Note down the Webex Calling location and the Support Number.
 
-      - Webex Calling location: [**site1**]
+      - Webex Calling location: [**Site1**]
       - Support Number: [+19842990142]
 
       ![Nav](./assets/2310_Excercise1_5.png){ width="700" }
@@ -64,20 +64,20 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
 
-## Section 2 : Configre and Debug an Inbound Flow
+## Section 2 : Configure and Debug an Inbound Flow
 
-- The steps below outline the process for configuring an incoming call, ensuring all necessary settings are in place for the agent to receive the call.
+- The steps below covers the process for handling an incoming call, ensuring all necessary settings are in place for the agent to receive the call.
 
 - First, to enable call handling options for the agent, navigate to "Contact Center" in the Control Hub.
 
       ![Nav](./assets/2310_Excercise1_2_1.png){ width="200" }
 
-- Go to "Tenant Settings" and select "Desktop."
+- Go to "Tenant Settings" and select "Desktop"
 
       ![Nav](./assets/2310_Excercise1_2_2.png){ width="200" }
 
 - Confirm that 
-      - "End Call" and "**End Consult**"is enabled.
+      - "**End Call**" and "**End Consult**"is enabled.
       - "Auto Wrap-up interval" is set to **600 seconds**.
       - "Telephony RONA timeout" is set to **12 seconds**.
 
@@ -87,7 +87,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_4.png){ width="200" }
 
-- Choose the **WebexOne_AgentProfile** and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
+- Choose the **WebexOne_AgentProfile** and verify that the "Voice Channel" options are configured as shown in the following screenshot.
 
       ![Nav](./assets/2310_Excercise1_2_5.png){ width="700" }
 
