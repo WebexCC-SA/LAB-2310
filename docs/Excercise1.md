@@ -174,7 +174,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call. <br>
 
-- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, **WebexOne_Flow_[num]**
+- In the browser tab/window containing Contact Center navigation pane select "Flows" under customer experience section and search for the flow you have mapped to the entry point, **WebexOne_Flow_[num]**
 
       ![Nav](./assets/2310_Excercise1_2_17.png){ width="200" }
 
@@ -221,11 +221,11 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - First, ensure that the agent is ready and make a call from your cell phone. 
 
-- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state.
+- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state. Hangup to disconnect the call.
 
       ![Nav](./assets/2310_Excercise1_3_1.png){ width="500" }
 
-- Next, make another call. This time, when the call is presented to the agent, reject the call.
+- Next, make another call. This time, when the call is presented to the agent, reject the call. Disconnect call from your cell phone.
 
       ![Nav](./assets/2310_Excercise1_3_2.png){ width="600" }
 
@@ -235,7 +235,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_3.png){ width="500" }
 
-- Click on "Visualization" and select the folder with your user details, **WebexOne_Report_User[num]**.
+- Click on "Visualization" and double-click the folder **WebexOne_Report_User[num]** containing your user details.
 
       ![Nav](./assets/2310_Excercise1_3_4.png){ width="500" }
 
@@ -248,7 +248,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - Each report includes three columns:
       - **RONA Count**: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
       - **Call Reject Count**: This tracks all calls that failed because the agent explicitly declined the call (reasonCode: USER_DECLINED). 
-      - **Other Error Counts**: This reflects call offer and assignment failures to the agent caused by any other error.
+      - **Offer Error Counts**: This reflects call offer and assignment failures to the agent caused by any other error.
 
 - To review the "Agent Trace" report, first click on the "Edit" option 
 
@@ -258,7 +258,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_7.png){ width="300" }
 
-- In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
+- In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Offer Error Counts—are** present.
 
       ![Nav](./assets/2310_Excercise1_3_8.png){ width="850" }
 
@@ -278,4 +278,4 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 **Congratulations !!** on completing this section of the lab! 
 
-You've successfully navigated the complexities of call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.
+You've successfully navigated the complexities of an inbound call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.
