@@ -155,7 +155,9 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Let's troubleshoot to see why this is the case. 
 
-- To figure this out, bring up the browser developer tool (Shortcut: Press F12 Key).
+- To figure this out, bring up the browser developer tool (Windows Shortcut: Press F12 Key)
+
+      ![Nav](./assets/2310_Excercise3_1_19_0.png){ width="500" }
 
 - Once the developer tool is up, ensure that it's on the "Console" tab and clear the console logs by selecting the "Clear Console" button 
 
@@ -171,7 +173,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "**Config**" – "**Config_fetch_error**." The exact config it's talking about is "**queuemgr**" which basically means queue.
 
-      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" } ![Nav](./assets/2310_Excercise3_1_21_1.png){ width="300" }
 
 - This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
 
