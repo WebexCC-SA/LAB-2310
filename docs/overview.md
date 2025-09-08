@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-This lab session is an entry-level session for engineers who want to learn about the voice channel and its related troubleshooting techniques in a Webex Contact Center Solution. The session is divided into three exercises that cover following topics:
+This lab session is an intermediate-level session for engineers and administrators interested in the voice channel and its related troubleshooting techniques in a Webex Contact Center Solution. The session is divided into three exercises that cover following topics:
 
 - **Configure and manage inbound call flows**: Participants will learn to set up inbound call flows and call distribution strategies.
 
