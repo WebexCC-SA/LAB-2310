@@ -40,14 +40,14 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3.png){ width="700" }
 
-- In the Contact Center navigation pane, under the Customer Experience section, select Channels and search for the entry point named: **EP_1**.
+- In the Contact Center navigation pane, under the Customer Experience section, select Channels and search for the entry point named: **Entry Point-1**.
 
       ![Nav](./assets/2310_Excercise1_4.png){ width="700" }
 
-- Within the details for **EP_1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
+- Within the details for **Entry Point-1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
 
-      - Webex Calling location: [**site1**]
-      - Support Number: [+19842990142]
+      - Webex Calling location: [**RTP Location 8**]
+      - Support Number: [+19842906061]
 
       ![Nav](./assets/2310_Excercise1_5.png){ width="700" }
 
@@ -57,7 +57,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_6.png){ width="700" }
 
-- Select the discovered location and click on the Calling Connection details. In Main number section select the "support Number" Identified in the previous step.  In our case, the calling PSTN connection is: Cisco Calling Plan.
+- Select the discovered location and click on the Calling Connection details. 
+
+- In Main number section the "support Number" identified is the same as in the previous step and the calling PSTN connection is: **Cisco Calling Plan**
 
       ![Nav](./assets/2310_Excercise1_7.png){ width="800" }
 
