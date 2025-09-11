@@ -75,8 +75,8 @@ The current flow is as follows:
 The Flow Designer provides a "GoTo Node" specifically for this use case.
 
 !!! Note 
-  A GoTo Node is used to seamlessly transfer a call to another flow within the same system, preserving variables. 
-  A Blind Transfer node is used to transfer a call to an external number.
+      A GoTo Node is used to seamlessly transfer a call to another flow within the same system, preserving variables. 
+      A Blind Transfer node is used to transfer a call to an external number.
 
 - To replace the Blind Transfer node, first enable the edit mode of the flow designer.
 
