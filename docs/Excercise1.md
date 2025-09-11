@@ -13,18 +13,18 @@ Please use the following credentials to connect to Control Hub and configure Web
 
 The objective of this self-paced lab is to provide participants with hands-on experience in configuring and debugging tenant call flows, as well as analyzing agent performance through call reports. This excercise has been divided into three sections
 
-- Section 1: Discover Tenant Call Flow Configuration
+- Section 1: Discover Tenant Call Flow Configuration:
 This section aims to familiarize participants with the existing call flow configurations within a tenant environment.
 
-- Section 2: Configure and Debug an Inbound Flow
+- Section 2: Configure and Debug an Inbound Flow:
 In this part, participants will set up an inbound flow with a whisper announcement and a "Team" and "Longest Available" distribution strategy. They will use the flow debugger to identify and resolve common misconfigurations encountered during the setup process.
 
-- Section 3: Analyze Agent Performance with Call Reports
-After creating the inbound flow and presenting calls to a test agent, participants will intentionally trigger specific events. They will reject one call and allow a second to result in a Ring No Answer (RONA) event. This will enable them to explore and analyze call reports to understand agent behavior and pinpoint the root cause of the rejected and RONA calls.
+- Section 3: Analyze Agent Performance with Call Reports:
+After creating the inbound flow and presenting calls to a test agent, participants will intentionally trigger specific events. They will reject one call and allow a second to result in a Re-Route on No Answer (RONA) event. This will enable them to explore and analyze call reports to understand agent behavior and pinpoint the root cause of the rejected and RONA calls.
 
 ## Section 1 : Discover Tenant Call Flow Configuration
 
-- Open your web browser and navigate to https://admin.webex.com. 
+- Open your web browser and navigate to [https://admin.webex.com](https://admin.webex.com)
 
 - Log in using the provided credentials.
 
@@ -44,10 +44,17 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_4.png){ width="700" }
 
+<<<<<<< HEAD
 - Within the details for **Entry Point-1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
 
       - Webex Calling location: [**RTP Location 8**]
       - Support Number: [+19842906061]
+=======
+- Click entry point **EP_1** to open details and scroll down to locate the Phone Number section. Note down the Webex Calling location and the Support Number.
+
+      - Webex Calling location: [**Site1**]
+      - Support Number: [+19842990142]
+>>>>>>> 5d9b70893983f2a43350b390f9bfca885dede053
 
       ![Nav](./assets/2310_Excercise1_5.png){ width="700" }
 
@@ -66,20 +73,20 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
 
-## Section 2 : Configre and Debug an Inbound Flow
+## Section 2 : Configure and Debug an Inbound Flow
 
-- The steps below outline the process for configuring an incoming call, ensuring all necessary settings are in place for the agent to receive the call.
+- The steps below covers the process for handling an incoming call, ensuring all necessary settings are in place for the agent to receive the call.
 
 - First, to enable call handling options for the agent, navigate to "Contact Center" in the Control Hub.
 
       ![Nav](./assets/2310_Excercise1_2_1.png){ width="200" }
 
-- Go to "Tenant Settings" and select "Desktop."
+- Go to "Tenant Settings" and select "Desktop"
 
       ![Nav](./assets/2310_Excercise1_2_2.png){ width="200" }
 
 - Confirm that 
-      - "End Call" and "**End Consult**"is enabled.
+      - "**End Call**" and "**End Consult**"is enabled.
       - "Auto Wrap-up interval" is set to **600 seconds**.
       - "Telephony RONA timeout" is set to **12 seconds**.
 
@@ -89,7 +96,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_4.png){ width="200" }
 
-- Choose the **WebexOne_AgentProfile** and verify that the "Voice Channel" options are configured as shown in the provided screenshot.
+- Choose the **WebexOne_AgentProfile** and verify that the "Voice Channel" options are configured as shown in the following screenshot.
 
       ![Nav](./assets/2310_Excercise1_2_5.png){ width="700" }
 
@@ -176,7 +183,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Let's troubleshoot to see why the call is not reaching the agent. The best way will be to look at the flow to see what is happening with the call. <br>
 
-- In the customer experience section, select "Flows" and search for the flow you have mapped to the entry point, **WebexOne_Flow_[num]**
+- In the browser tab/window containing Contact Center navigation pane select "Flows" under customer experience section and search for the flow you have mapped to the entry point, **WebexOne_Flow_[num]**
 
       ![Nav](./assets/2310_Excercise1_2_17.png){ width="200" }
 
@@ -223,11 +230,11 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - First, ensure that the agent is ready and make a call from your cell phone. 
 
-- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state.
+- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state. Hangup to disconnect the call.
 
       ![Nav](./assets/2310_Excercise1_3_1.png){ width="500" }
 
-- Next, make another call. This time, when the call is presented to the agent, reject the call.
+- Next, make another call. This time, when the call is presented to the agent, reject the call. Disconnect call from your cell phone.
 
       ![Nav](./assets/2310_Excercise1_3_2.png){ width="600" }
 
@@ -237,7 +244,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_3.png){ width="500" }
 
-- Click on "Visualization" and select the folder with your user details, **WebexOne_Report_User[num]**.
+- Click on "Visualization" and double-click the folder **WebexOne_Report_User[num]** containing your user details.
 
       ![Nav](./assets/2310_Excercise1_3_4.png){ width="500" }
 
@@ -250,7 +257,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - Each report includes three columns:
       - **RONA Count**: This captures all calls that failed because the configured RONA timer expired in WxCC (reasonCode: RONA_TIMER_EXPIRED) or  Because of a configured ring timeout on the device (reasonCode: NO_ANSWER_USER). 
       - **Call Reject Count**: This tracks all calls that failed because the agent explicitly declined the call (reasonCode: USER_DECLINED). 
-      - **Other Error Counts**: This reflects call offer and assignment failures to the agent caused by any other error.
+      - **Offer Error Counts**: This reflects call offer and assignment failures to the agent caused by any other error.
 
 - To review the "Agent Trace" report, first click on the "Edit" option 
 
@@ -260,7 +267,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_7.png){ width="300" }
 
-- In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Other Error Counts—are** present.
+- In the profile variables, you can also confirm that the three variables i.e. **RONA Count**,**Call Reject Count** , and **Offer Error Counts—are** present.
 
       ![Nav](./assets/2310_Excercise1_3_8.png){ width="850" }
 
@@ -278,6 +285,6 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 -  The same process can be used to explore the "**Queue Activity By Queue**" report.
 
-**Congratulations !!** on completing this section of the lab! 
+**Congratulations!!** on completing this section of the lab! 
 
-You've successfully navigated the complexities of call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.
+You've successfully navigated the complexities of an inbound call flow configuration, debugged common issues, and learned how to analyze agent performance by simulating and tracking different call outcomes in reports.

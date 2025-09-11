@@ -14,13 +14,13 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 ## Section 1 : Setup Outdial 
 
-- Log in to https://admin.webex.com with the provided credentials.
+- Log into [Webex Control Hub](https://admin.webex.com) with the provided credentials.
 
 - In Control Hub, navigate to Services and click on Contact Center.
 
       ![Nav](./assets/2310_Excercise3_1_1.png){ width="200" }
 
-- In the Contact Center navigation pane, under Customer Experience, select Queues.
+- In the Contact Center navigation pane, under Customer Experience, select **Queues**.
 
       ![Nav](./assets/2310_Excercise3_1_2.png){ width="400" }
 
@@ -30,8 +30,8 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
       - **General**
            - **Name**: [Provide a descriptive name for your queue]
-           - **Contact Direction**: Outdial Queue
-           - **Channel Type**: Telephony
+           - **Contact direction**: Outdial Queue
+           - **Channel type**: Telephony
 
       ![Nav](./assets/2310_Excercise3_1_3.png){ width="800" }
 
@@ -43,9 +43,9 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       ![Nav](./assets/2310_Excercise3_1_4.png){ width="700" }
 
       - **Advanced Settings**
-           - **Service Level Threshold**: 30 seconds
-           - **Maximum Time in Queue**: 30 seconds
-           - **Default Music in Queue**: defaultmusic_on_hold.wav
+           - **Service level threshold**: 30 seconds
+           - **Maximum time in queue**: 30 seconds
+           - **Default music in queue**: defaultmusic_on_hold.wav
 
       ![Nav](./assets/2310_Excercise3_1_5.png){ width="700" }
 
@@ -53,7 +53,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Lets create a Entry point to map the queue to this entry point. 
 
-- Navigate back to Customer Experience in Contact Center and click on Channels.
+- Navigate back to Customer Experience in Contact Center and click on **Channels**.
 
       ![Nav](./assets/2310_Excercise3_1_6.png){ width="200" }
 
@@ -64,8 +64,8 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 - The Channel Creation Wizard will appear. Provide the following details:
 
       - **Name**: [Provide a descriptive name for your channel]
-      - **Channel Type**: Outbound Telephony
-      - **Service Level Threshold**: 30 seconds
+      - **Channel type**: Outbound Telephony
+      - **Service level threshold**: 30 seconds
       - **Timezone**: America/New York
 
       ![Nav](./assets/2310_Excercise3_1_8.png){ width="750" }
@@ -76,7 +76,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - To enable this capability, create an agent profile and map it to the agent.
 
-- Navigate to Desktop Experience in Contact Center and click on Desktop Profiles.
+- Navigate to Desktop Experience in Contact Center and click on **Desktop Profiles**.
 
       ![Nav](./assets/2310_Excercise3_1_9.png){ width="200" }
 
@@ -88,7 +88,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
       ![Nav](./assets/2310_Excercise3_1_11.png){ width="700" }
 
-- Move to "Dial Plans" by clicking Next.
+- Move to "Dial Plans" by clicking Next button (at the bottom of the screen) a couple of times.
 
 - Enable "**Outdial**".
       - Select the newly create entrypoint as an "**Outdial Entry Point**".
@@ -102,9 +102,9 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Proceed to the end of desktop profile creation by clicking Next and finally Create.
 
-- Now, Navigate to the "Contact Center Users" section.
+- Now, Navigate to the User Management section in Contact Center and click on **Contact Center Users**.
 
-- Assign your newly created desktop profile under "Desktop Profile" and Save changes.
+- Bring up your user and assign the newly created desktop profile under "Desktop Profile" and Save changes.
 
       ![Nav](./assets/2310_Excercise3_1_14.png){ width="800" }
 
@@ -117,7 +117,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Please select desktop as telephony option and set the Team as **WebexOne_Team_[num]** and login.
 
-<<<<<<<<<<sCREEN shOT>>>>>>>>>>
+      ![Nav](./assets/2310_Excercise3_1_15.png){ width="400" }
 
 - Present task is to dial your cell phone number. 
 
@@ -155,7 +155,9 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Let's troubleshoot to see why this is the case. 
 
-- To figure this out, bring up the browser developer tool (Shortcut: Press F12 Key).
+- To figure this out, bring up the browser developer tool (Windows Shortcut: Press F12 Key)
+
+      ![Nav](./assets/2310_Excercise3_1_19_0.png){ width="500" }
 
 - Once the developer tool is up, ensure that it's on the "Console" tab and clear the console logs by selecting the "Clear Console" button 
 
@@ -171,7 +173,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "**Config**" – "**Config_fetch_error**." The exact config it's talking about is "**queuemgr**" which basically means queue.
 
-      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" } ![Nav](./assets/2310_Excercise3_1_21_1.png){ width="300" }
 
 - This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
 
