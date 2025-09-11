@@ -133,9 +133,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
       ![Nav](./assets/2310_Excercise1_2_10.png){ width="700" }
 
 - In the "Phone numbers" section, select the following:
-      - Number Webex Calling location: **???????**
-      - Support number: **???????**
-      - PSTN Region: **???????**
+      - Number Webex Calling location: **RTP Location 8**
+      - Support number: **Assigned by the Instructor**
+      - PSTN Region: **Default**
 
       ![Nav](./assets/2310_Excercise1_2_11.png){ width="700" }
 
@@ -145,9 +145,19 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - With this logic, let's check the queue and make the necessary configuration. <br>
 
-- In the Contact Center navigation pane, under Customer Experience, select Queues. Search for the queue **WebexOne_Queue_[num]**. 
+- In the Contact Center navigation pane, under Customer Experience, select Queues. 
 
       ![Nav](./assets/2310_Excercise1_2_12.png){ width="200" }
+
+- Click the **Create a Queue** button
+
+      ![Nav](./assets/2310_Excercise1_2_12_1.png){ width="500" }
+
+- Configure the new queue by providing the name **WebexOne_Queue_[num]** and ensuring these settings match:
+      -  Contact Direction : Inbound Queue 
+      -  Channel Type : Telephony 
+
+      ![Nav](./assets/2310_Excercise1_2_12_2.png){ width="500" }
 
 - In Contact Routing Settings, confirm these settings:
       - Agent Assignment: Teams
@@ -177,7 +187,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Please select **Desktop** as the telephony option, set the Team as **WebexOne_Team_[num]** , and log in. <br>
 
-- Place a call from your cell phone to the Dialed Number **?????** and option 0 to reach the logged-in agent. <br>
+- Place a call from your cell phone to the Dialed Number assigned to your entry point and select option 0 to reach the logged-in agent. <br>
 
 - However, you will notice the call is never presented to the agent, and the caller hears music on hold.<br>
 
