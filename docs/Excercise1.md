@@ -100,7 +100,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_2_6.png){ width="200" }
 
-- Search for the agent **WebexOneUser[num]** and, in their agent settings, ensure that the "desktop profile" is mapped to **WebexOne_AgentProfile**.
+- Search for your agent **webex1wxccuser+[num]@gmail.com** and, in their agent settings, ensure that the "desktop profile" is mapped to **WebexOne_AgentProfile**.
 
       ![Nav](./assets/2310_Excercise1_2_7.png){ width="700" }
 
