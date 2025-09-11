@@ -151,13 +151,13 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click the **Create a Queue** button
 
-      ![Nav](./assets/2310_Excercise1_2_12_1.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_12_1.png){ width="200" }
 
 - Configure the new queue by providing the name **WebexOne_Queue_[num]** and ensuring these settings match:
       -  Contact Direction : Inbound Queue 
       -  Channel Type : Telephony 
 
-      ![Nav](./assets/2310_Excercise1_2_12_2.png){ width="500" }
+      ![Nav](./assets/2310_Excercise1_2_12_2.png){ width="700" }
 
 - In Contact Routing Settings, confirm these settings:
       - Agent Assignment: Teams
