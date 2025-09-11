@@ -126,7 +126,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
    
       - Service Level Threshold: **30 seconds**
       - Timezone: **America/New York**
-      - Routing flow: **Select Webexone_Flow_[num]**
+      - Routing flow: **Select Webexone_Flow_[num]** (Num is the assigned assignee's number)
       - Music on hold: **defaultmusic_on_hold**
       - Version label: **Latest**
 
