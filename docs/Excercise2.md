@@ -56,11 +56,13 @@ The current flow is as follows:
 
       ![Nav](./assets/2310_Excercise2_1_3.png){ width="700" }
 
-- Select the Blind Transfer node, and you will see it is transferring the call to a number "**19842990193**" that is mapped to a different flow called "**Webexone_transfer**"
+- Select the Blind Transfer node, and you will see it is transferring the call to a number "**19842990193**" that is mapped to a different flow called "**WebexOne_Flow_Transfer**"
 
       ![Nav](./assets/2310_Excercise2_1_4.png){ width="500" }
 
-- This is the core of the problem. We are instructing the flow to transfer the call to an external number, which creates a new call leg. As a result, the variables as well defined in this flow are not being passed to the "**Webexone_transfer**" flow.
+- This is the core of the problem. We are instructing the flow to transfer the call to an external number, which creates a new call leg. 
+
+- As a result, the variables as well defined in this flow are not being passed to the "**WebexOne_Flow_Transfer**" flow.
 
 - To check these variables, click on any empty space on the flow canvas and review the right side of the flow.
 
@@ -72,7 +74,7 @@ The current flow is as follows:
 
 The Flow Designer provides a "GoTo Node" specifically for this use case.
 
-Note!!!
+!!! Note 
   A GoTo Node is used to seamlessly transfer a call to another flow within the same system, preserving variables. 
   A Blind Transfer node is used to transfer a call to an external number.
 
