@@ -135,19 +135,27 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Since this is an agent desktop function, we'll check the agent's desktop profile and the dial plan where we enabled the outdial option.
 
-- In Control Hub, go back to the Desktop Profile section. Select the profile that's mapped to the agent you are working with.
+- In Control Hub, go back to the Desktop Profile section. 
 
-- Navigate to the Dial Plans tab. Enable the dial plan functionality and select US as the dial plan. Then, click Save.
+- Select the profile that's mapped to the agent you are working with.
+
+- Navigate to the Dial Plans tab. 
+
+- Enable the dial plan functionality and select US as the dial plan. Then, click Save.
 
       ![Nav](./assets/2310_Excercise3_1_18.png){ width="800" }
 
-- Refresh the Agent Desktop application. Click the Outdial option again.
+- Refresh the Agent Desktop application browser. 
+
+- Click the Outdial option again.
 
 - You should now see the number pad pop up, allowing you to punch in numbers.
 
 - Enter your cell phone number. You may add a "1" before the number, or it will work without it 
 
 - Click the Dial button.
+
+      ![Nav](./assets/2310_Excercise3_1_18.1.png){ width="700" }
 
 - You should ideally see an agent-initiated call to the cell phone number, but nothing happens.
 
