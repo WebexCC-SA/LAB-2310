@@ -199,15 +199,15 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - You will notice that the call passed through the "Menu" node, where option "0" was pressed.
 
-      ![Nav](./assets/2310_Excercise1_2_18.1.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_18.1.png){ width="800" }
 
 - Then, the call landed in the queue node where the selected queue had the ID "4d0282c7-6478-444b-b41a-8e331614acae".
 
-      ![Nav](./assets/2310_Excercise1_2_18.2.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_18.2.png){ width="800" }
 
 - Now, the call moves to the "Play Music" node, where "defaultmusic_on_hold.wav" is played instead of being presented to the logged-in agent.
 
-      ![Nav](./assets/2310_Excercise1_2_18.3.png){ width="700" }
+      ![Nav](./assets/2310_Excercise1_2_18.3.png){ width="800" }
 
 - To figure out what queue it is in the Control Hub, go to the "Queues" section and in the URL, append the queue ID "/4d0282c7-6478-444b-b41a-8e331614acae" noted before and load the page.
 
@@ -246,11 +246,15 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - First, ensure that the agent is ready and make a call from your cell phone. 
 
-- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state. Hangup to disconnect the call.
+- When the call is presented to the agent, do not accept it. Let the call ring for 12 seconds until it goes to a "no answer" state. 
+
+- Hangup to disconnect the call.
 
       ![Nav](./assets/2310_Excercise1_3_1.png){ width="500" }
 
-- Next, make another call. This time, when the call is presented to the agent, reject the call. Disconnect call from your cell phone.
+- Next, make another call. 
+
+- This time, when the call is presented to the agent, reject the call. Disconnect call from your cell phone.
 
       ![Nav](./assets/2310_Excercise1_3_2.png){ width="600" }
 
