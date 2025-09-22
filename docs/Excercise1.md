@@ -48,7 +48,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 - Within the details for **Entry Point-1**, locate the Phone Number section and note the Webex Calling location and the Support Number.
 
       - Webex Calling location: [**RTP Location 8**]
-      - Support Number: [+19842906061]
+      - Support Number: [+19842906065]
 
       ![Nav](./assets/2310_Excercise1_5.png){ width="700" }
 
