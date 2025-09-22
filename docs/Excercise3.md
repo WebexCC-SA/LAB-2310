@@ -173,15 +173,17 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Using the dial pad, dial the cell phone number again.
 
-- As soon as the call fails, you should see a red error message in the console logs.
+- As soon as the call fails, you should see a red error message in the console logs with the message **event=OutdialFailed**
 
       ![Nav](./assets/2310_Excercise3_1_20.png){ width="700" }
 
-- Now, let's look closer into the error message and figure out what the issue might be.
+- Now, let's look closer into the failure message and figure out what the issue might be.
+
+- For ease, one can copy the error message into a Notepad or Notepad++ application.
 
 - Search for "error," and at the bottom of the error message, you will notice there is a fetch error on "**Config**" – "**Config_fetch_error**." The exact config it's talking about is "**queuemgr**" which basically means queue.
 
-      ![Nav](./assets/2310_Excercise3_1_21.png){ width="700" } ![Nav](./assets/2310_Excercise3_1_21_1.png){ width="300" }
+      ![Nav](./assets/2310_Excercise3_1_21.png){ width="800" } ![Nav](./assets/2310_Excercise3_1_21_1.png){ width="400" }
 
 - This overall means the system is not able to fetch the team details from the queue perspective where agent resides. 
 
@@ -198,9 +200,11 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - Version label: Latest
       - Outdial Queue: Select the queue that was created in step 1 of your initial setup.
 
+      ![Nav](./assets/2310_Excercise3_1_6.1.png){ width="500" }
+
 - Save the settings.
 
-- From Agent Desktop, perform the outdial to the cell phone number, and now the call should be successful.
+- Refresh the Agent Desktop browser and perform the outdial to the cell phone number; the call should now be successful.
 
 - If you observe the browser debug console logs, you should see a message that will clearly show case its fetching the config and have the team details via the queue ID.
 
