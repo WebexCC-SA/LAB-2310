@@ -13,13 +13,13 @@ Please use the following credentials to connect to Control Hub and configure Web
 
 The objective of this self-paced lab is to provide participants with hands-on experience in configuring and debugging tenant call flows, as well as analyzing agent performance through call reports. This excercise has been divided into three sections
 
-- Section 1: Discover Tenant Call Flow Configuration:
+- **Section 1**: Discover Tenant Call Flow Configuration:
 This section aims to familiarize participants with the existing call flow configurations within a tenant environment.
 
-- Section 2: Configure and Debug an Inbound Flow:
+- **Section 2**: Configure and Debug an Inbound Flow:
 In this part, participants will set up an inbound flow with a whisper announcement and a "Team" and "Longest Available" distribution strategy. They will use the flow debugger to identify and resolve common misconfigurations encountered during the setup process.
 
-- Section 3: Analyze Agent Performance with Call Reports:
+- **Section 3**: Analyze Agent Performance with Call Reports:
 After creating the inbound flow and presenting calls to a test agent, participants will intentionally trigger specific events. They will reject one call and allow a second to result in a Re-Route on No Answer (RONA) event. This will enable them to explore and analyze call reports to understand agent behavior and pinpoint the root cause of the rejected and RONA calls.
 
 ## Section 1 : Discover Tenant Call Flow Configuration
@@ -49,12 +49,6 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       - Webex Calling location: [**RTP Location 8**]
       - Support Number: [+19842906061]
-
-
-- Click entry point **EP_1** to open details and scroll down to locate the Phone Number section. Note down the Webex Calling location and the Support Number.
-
-      - Webex Calling location: [**Site1**]
-      - Support Number: [+19842990142]
 
       ![Nav](./assets/2310_Excercise1_5.png){ width="700" }
 
