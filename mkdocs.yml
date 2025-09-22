@@ -92,7 +92,6 @@ nav:
       - Lab 2 - Setup Seamless Call Transfer : Excercise2.md
       - Lab 3 - Set Up Outdial Calls : Excercise3.md
       - Conclusion: conclusion.md
-  - Topologies: topologies.md
   - How to use this guide:
       - Setting up and using the tool:
         - Initial Setup: howToUse/initialSetup.md
