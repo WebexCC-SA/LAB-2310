@@ -120,6 +120,6 @@ The current flow is as follows:
 
 **Congratulations !!** on successfully completing this exercise! 
 
-You've learned how to perform seamless internal transfers within entry points and now understand the crucial difference between a Blind Transfer and a GoTo Nod
+You've learned how to perform seamless internal transfers within entry points and now understand the crucial difference between a Blind Transfer and a GoTo Node.
 
 
