@@ -224,7 +224,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
       ![Nav](./assets/2310_Excercise3_1_23.png){ width="200" }
 
-- Select WebexOne_Outdial_ANI.
+- Select **WebexOne_Outdial_ANI**.
 
       ![Nav](./assets/2310_Excercise3_1_24.png){ width="300" }
 
@@ -238,7 +238,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Navigate to the Dial Plans section.
 
-- In the Outdial ANI field, select WebexOne_Outdial_ANI and save your changes.
+- In the Outdial ANI field, select **WebexOne_Outdial_ANI** and save your changes.
 
       ![Nav](./assets/2310_Excercise3_1_26.png){ width="700" }
 

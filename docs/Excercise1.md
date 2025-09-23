@@ -232,7 +232,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 !!! Note 
       When publishing, it is important to ensure the label you have set is the same one that was set when the entry point was being mapped to the routing flow.
 
-- Place another call from your cell phone to the dialed number **????** and select option 0 to succesfully reach the logged-in agent. <br>
+- Place another call from your cell phone to the dialed number you have assigned and select option 0 to succesfully reach the logged-in agent. <br>
 
 - In the Flow Canvas you can now also check how the calls have travered through valrious nodes by cliking on the Analyze capability and selecting the current day.
 
