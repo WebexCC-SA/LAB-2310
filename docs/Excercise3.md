@@ -155,7 +155,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - Click the Dial button.
 
-      ![Nav](./assets/2310_Excercise3_1_18.1.png){ width="700" }
+      ![Nav](./assets/2310_Excercise3_1_18.1.png){ width="400" }
 
 - You should ideally see an agent-initiated call to the cell phone number, but nothing happens.
 
@@ -200,7 +200,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
       - Version label: Latest
       - Outdial Queue: Select the queue that was created in step 1 of your initial setup.
 
-      ![Nav](./assets/2310_Excercise3_1_6.1.png){ width="500" }
+      ![Nav](./assets/2310_Excercise3_1_6.1.png){ width="800" }
 
 - Save the settings.
 
