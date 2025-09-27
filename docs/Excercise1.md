@@ -54,15 +54,21 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Go back to the main menu of Control Hub. 
 
-- Under the Management section, select Locations. In the Locations search bar, enter the Webex Calling location name you discovered in the previous step. 
+- Under the Management section, select Locations. 
+
+- In the Locations search bar, enter the Webex Calling location name you discovered in the previous step. 
 
       ![Nav](./assets/2310_Excercise1_6.png){ width="700" }
 
-- Select the discovered location and click on the Calling Connection details. 
+- Select the discovered location and click on the **PSTN** connection details. 
 
-- In Main number section the "support Number" identified is the same as in the previous step and the calling PSTN connection is: **Cisco Calling Plan**
+- In **PSTN Configuraton** section PSTN connection identified is **Cisco Calling Plan**
 
-      ![Nav](./assets/2310_Excercise1_7.png){ width="800" }
+      ![Nav](./assets/2310_Excercise1_7.png){ width="500" }
+
+- Click on the **Manage** section and it provides all the details of the **connection type**
+
+      ![Nav](./assets/2310_Excercise1_7.1.png){ width="500" }
 
 - Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
