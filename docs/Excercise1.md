@@ -68,7 +68,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - Click on the **Manage** section and it provides all the details of the **connection type**
 
-      ![Nav](./assets/2310_Excercise1_7.1.png){ width="200" }
+      ![Nav](./assets/2310_Excercise1_7.1.png){ width="300" }
 
 - Based on the observed calling connection (e.g., Cisco Calling Plan) and the information presented in the call flow slides, this configuration matches Flow Type 1.
 
