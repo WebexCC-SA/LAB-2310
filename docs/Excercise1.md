@@ -60,9 +60,9 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_6.png){ width="700" }
 
-- Select the discovered location and click on the **PSTN** connection details. 
+- Select the discovered location. 
 
-- In **PSTN Configuraton** section PSTN connection identified is **Cisco Calling Plan**
+- In the **PSTN tab**, under the **PSTN Configuration** section, the identified connection is **Cisco Calling Plan**.
 
       ![Nav](./assets/2310_Excercise1_7.png){ width="500" }
 
