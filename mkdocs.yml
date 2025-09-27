@@ -1,7 +1,7 @@
 ---
 site_name: "LAB-2310: Your practical guide to troubleshooting for Webex Contact Center" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
 site_description: "Your practical guide to troubleshooting for Webex Contact Center" # must be same as "site_name"
-site_author: Anuj Bhatia
+site_author: Anuj Bhatia, D.K. Singh
 copyright: Copyright &copy; 2025 Cisco
 theme:
   name: material
@@ -44,11 +44,10 @@ extra_javascript:
   - template_assets/js/setInfo.js
 plugins:
   - search
-  - macros
-  # - with-pdf:
-  #     cover_title: LABXXX-1234
-  #     cover_subtitle: My famous WebexOne Lab
-  #     cover_logo: template_assets/Wx1_25_PDF_image.jpg
+  - with-pdf:
+      cover_title: "LAB-2310"
+      cover_subtitle: "Your practical guide to troubleshooting for Webex Contact Center"
+      cover_logo: template_assets/CL25_Cisco_Live_RGB_Midnight_General_Lockup_Horizontal.png
   - glightbox:
       touchNavigation: true
       loop: false
