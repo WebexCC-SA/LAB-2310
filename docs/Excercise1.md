@@ -134,7 +134,7 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
 - In the "Phone numbers" section, select the following:
       - Number Webex Calling location: **RTP Location 8**
-      - Support number: **Assigned by the Instructor**
+      - Support number: **Choose the available Number**
       - PSTN Region: **Default**
 
       ![Nav](./assets/2310_Excercise1_2_11.png){ width="700" }
