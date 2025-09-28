@@ -1,13 +1,13 @@
-# Task 3 - Exploring WebRTC data and statistics
+# Task 4 - Exploring WebRTC data and statistics
 
 
 Please use the following credentials to connect to Control Hub and configure Webex Contact Center:
 
 | <!-- -->         | <!-- -->         |
 | ---------------- | ---------------- |
-| `Agent Desktop URL`            | <a href="https://desktop.wxcc-us1.cisco.com" target="_blank">https://desktop.wxcc-us1.cisco.com</a> |
-| `Username`       | labuser**ID**@wxccciscolive2024.wbx.ai     _(where **ID** is your assigned pod number (06 through 10); i.e. labuser**07**@wxccciscolive2024.wbx.ai if assigned pod is 7))_       |
-| `Password`       | ciscoliveUS24!         |
+| `Control Hub URL`            | <a href="https://admin.webex.com" target="_blank">https://admin.webex.com</a> |
+| `Username`       | labuser**ID**@wx1.wbx.ai _(where **ID** is your assigned pod number; this ID will be provided by your proctor)_ |
+| `Password`       | webexONE1! |
 
 
 !!! info
@@ -53,12 +53,13 @@ Please use the following credentials to connect to Control Hub and configure Web
 ![Nav](./assets/task3_7a.png){ width="1200" }
 
 - End the call.
+
 - Change your state to the idle **'Meeting'** state on the Agent Desktop.
 
 ## Section 2 - Investigating missing audio
 
 - Download **task3s2.zip** file from [https://github.com/asuchank/clus24/raw/main/task3s2.zip](https://github.com/asuchank/clus24/raw/main/task3s2.zip) and extract it.
-- Make a new call to **+19843690030** using WebRTC via Agent Desktop (music should be playing).
+- Make a new call to **++19842906065** using WebRTC via Agent Desktop (music should be playing).
 - Navigate to **chrome://webrtc-internals** in a new tab.
 - In the **WebRTC-internals** tab select the active WebRTC session part (it will have **desktop.wxcc-us1.cisco.com** in its name).
 
