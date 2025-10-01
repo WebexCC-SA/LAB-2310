@@ -212,9 +212,9 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
 - In many cases, business requirements dictate that the Outdial ANI displayed on customer devices should be set to a specific toll-free or departmental number.
 
-- Here, the outdial ANI noticed on the cell phone is "**+19842906061**" which is the default configuration set on the tenant level.
+- Here, the outdial ANI noticed on the cell phone is "**+19842906065**" which is the default configuration set on the tenant level.
 
-- To, review the Tenant-Level Outdial ANI setting in tenant Settings navigate to the Voice tab and note the existing Outdial ANI which is "**+19842906061**".
+- To, review the Tenant-Level Outdial ANI setting in tenant Settings navigate to the Voice tab and note the existing Outdial ANI which is "**+19842906065**".
 
       ![Nav](./assets/2310_Excercise3_1_22.png){ width="700" }
 
@@ -228,7 +228,7 @@ In this lab exercise, the audience will gain hands-on experience configuring WxC
 
       ![Nav](./assets/2310_Excercise3_1_24.png){ width="300" }
 
-- Confirm that it is mapped to the number "**+19842906073**".
+- Confirm that it is mapped to the number "**+19842906070**".
 
       ![Nav](./assets/2310_Excercise3_1_25.png){ width="700" }
 
