@@ -303,6 +303,10 @@ After creating the inbound flow and presenting calls to a test agent, participan
 
       ![Nav](./assets/2310_Excercise1_3_9.png){ width="1000" }
 
+- To easily review the calls in the report, use the Custom Select option in Agent Name to search for the designated user and their calls
+
+      ![Nav](./assets/2310_Excercise1_3_11.png){ width="500" }
+
 - A new window will pop up with all the details of this call. As needed, you can add fields and measures from the available options to get all the desired information related to the call and the agent.
 
       ![Nav](./assets/2310_Excercise1_3_10.png){ width="1000" }
