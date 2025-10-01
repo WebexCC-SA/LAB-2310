@@ -59,8 +59,11 @@ Please use the following credentials to connect to Control Hub and configure Web
 ## Section 2 - Investigating missing audio
 
 - Download **task3s2.zip** file from [https://github.com/asuchank/clus24/raw/main/task3s2.zip](https://github.com/asuchank/clus24/raw/main/task3s2.zip) and extract it.
-- Make a new call to **+19842906065** using WebRTC via Agent Desktop (music should be playing).
+
+- Make a new call to **+19842906065** using WebRTC via Agent Desktop and press **0** (music should be playing).
+
 - Navigate to **chrome://webrtc-internals** in a new tab.
+
 - In the **WebRTC-internals** tab select the active WebRTC session part (it will have **desktop.wxcc-us1.cisco.com** in its name).
 
 ![Nav](./assets/task3_2a.png){ width="1000" }
@@ -78,5 +81,7 @@ Please use the following credentials to connect to Control Hub and configure Web
 ![Nav](./assets/task3_10a.png){ width="500" }
 
 - Based on the observation above - missing audio was caused by the lack of media packets.
+
 - End the call.
+
 - Congratulations, you have completed this task!
