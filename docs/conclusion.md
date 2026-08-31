@@ -4,6 +4,11 @@
 
 - In Control Hub, locate Services and click on Contact Center. 
 
-<video src="./assets/VD1.mp4" width="600" controls muted autoplay loop>
+<video src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" width="600" controls>
+  Your browser does not support the video tag.
+</video>
+
+<video width="600" controls preload="metadata">
+  <source src="./assets/VD1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
