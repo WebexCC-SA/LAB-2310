@@ -1,6 +1,6 @@
 ## Create the Skill-Based Queue
 
-<details open>
+<details>
 <summary><b>🎥 Video Walkthrough: Create Skill-Based Queue</b></summary>
 <br>
 <video style="width: 100%; max-width: 800px; height: auto;" controls controlsList="nodownload" preload="metadata">
