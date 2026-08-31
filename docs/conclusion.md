@@ -2,6 +2,10 @@
 
 <video src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" width="500" controls> </video>
 
+<video style="width: 100%; max-width: 800px; height: auto;" controls preload="metadata">
+  <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4">
+</video>
+
 1. In the **Contact Center** navigation pane, select **Queues** under the **Customer Experience** section.
 
 2. Click the **Create Queue** button.
