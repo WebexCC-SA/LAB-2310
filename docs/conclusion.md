@@ -1,21 +1,5 @@
 ## Create the Skill-Based Queue
 
-<video src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" width="500" controls> </video>
-
-<video style="width: 100%; max-width: 800px; height: auto;" controls preload="metadata">
-  <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4">
-</video>
-
-<details>
-<summary><b>🎥 Click to toggle video walkthrough (1:04)</b></summary>
-<br>
-<video style="width: 100%; max-width: 800px; height: auto;" controls preload="metadata">
-  <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4">
-</video>
-</details>
-
-> 💡 **Tip:** Click the **`⋮`** on the video player and select **Picture-in-Picture** to keep the video floating on screen while performing lab steps in Control Hub.
-
 <details open>
 <summary><b>🎥 Video Walkthrough: Create Skill-Based Queue</b></summary>
 <br>
@@ -24,6 +8,7 @@
 </video>
 </details>
 
+> 💡 **Tip:** Click the **`⋮`** on the video player and select **Picture-in-Picture** to keep the video floating on screen while performing lab steps in Control Hub.
 
 1. In the **Contact Center** navigation pane, select **Queues** under the **Customer Experience** section.
 
