@@ -3,7 +3,7 @@
 <details>
 <summary><b>🎥 Video Walkthrough: Create Skill-Based Queue</b></summary>
 <br>
-<video style="width: 100%; max-width: 800px; height: auto;" controls controlsList="nodownload" preload="metadata" poster="./assets/Webexone.png">
+<video style="width: 100%; max-width: 800px; height: auto;" controls controlsList="nodownload" preload="metadata">
   <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4">
 </video>
 </details>
