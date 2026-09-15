@@ -8,6 +8,23 @@
 </video>
 </details>
 
+<style>
+  .doc-animation {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+  }
+</style>
+
+<!-- 2. The HTML: Calls the class to apply those styles -->
+<video class="doc-animation" autoplay loop muted playsinline>
+  <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 > 💡 **Tip:** Click the **`⋮`** on the video player and select **Picture-in-Picture** to keep the video floating on screen while performing lab steps in Control Hub.
 
 1. In the **Contact Center** navigation pane, select **Queues** under the **Customer Experience** section.
