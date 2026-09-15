@@ -24,6 +24,62 @@
   Your browser does not support the video tag.
 </video>
 
+<!-- Embedded CSS Styling -->
+<style>
+  .doc-video-card {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f6f8fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .doc-video-wrapper {
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+  }
+
+  .doc-video-wrapper video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .doc-video-caption {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+    color: #57606a;
+    background-color: #ffffff;
+    border-top: 1px solid #d0d7de;
+  }
+</style>
+
+<!-- Video Component HTML -->
+<div class="doc-video-card">
+  <div class="doc-video-wrapper">
+    <video 
+      controls 
+      autoplay 
+      loop 
+      muted 
+      playsinline 
+      preload="metadata">
+      <!-- Replace the src URL below with your actual MP4 file path or GitHub URL -->
+      <source src="https://raw.githubusercontent.com/WebexCC-SA/LAB-2310/main/docs/assets/VD1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="doc-video-caption">
+    <strong>Demo:</strong> Walkthrough demonstration of the feature setup.
+  </div>
+</div>
+
+
 
 > 💡 **Tip:** Click the **`⋮`** on the video player and select **Picture-in-Picture** to keep the video floating on screen while performing lab steps in Control Hub.
 
